@@ -1,0 +1,46 @@
+{
+  "name": "职业与种族重选",
+  "category": "patchouli:origins",
+  "icon": "minecraft:totem_of_undying",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "首次晋至更高奖励阶位时，每跨一个新阶位获得一次职业重选机会。直接从1阶跨到4阶获得3次。通过 /state 查看剩余次数，用 /state class 重新选择职业。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "2～4阶需要有剩余机会。只在重选成功打开时扣除一次，失败保留机会。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:totem_of_undying",
+      "title": "重选权益",
+      "text": "完成当前选择后再重新选择；5阶可无限次使用。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5阶可无限执行 /state class 和 /state race，分别重选职业与种族，/state 面板不显示剩余次数。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这些功能使用 Origins 与 Origins: Classes 的选择界面。先完成当前职业和种族选择，再尝试重选。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "职业重选只重置职业层，种族重选只重置种族层。重复重评不会重复发放旧阶位的机会。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "降到5阶以下后不再拥有无限重选资格；原有职业余次数保留，低于2阶不能使用职业重选。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/reassess",
+        "patchouli:commands/state"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

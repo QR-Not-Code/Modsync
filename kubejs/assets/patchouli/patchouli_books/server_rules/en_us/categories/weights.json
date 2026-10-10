@@ -1,0 +1,6 @@
+{
+  "name": "附录 · 附魔单级强度",
+  "icon": "minecraft:enchanting_table",
+  "description": "每一级附魔贡献的分数。单件合计=各项等级×单级强度之和。",
+  "sortnum": 8
+}

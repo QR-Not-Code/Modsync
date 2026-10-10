@@ -1,0 +1,28 @@
+{
+  "name": "暮色森林 · 3项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为暮色森林的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)凛寒气场$()：每级 1.5 分。$(br)注册名：chill_aura。$(br)受击概率冻伤/控制，不额外耗耐久；冰爆与异况超量配合。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)肆意毁坏$()：每级 1.5 分。$(br)注册名：destruction。$(br)当前4.3版本提高链锤可破坏方块的采掘等级；不能按旧版扩大范围估值。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)炽焰反制$()：每级 1.25 分。$(br)注册名：fire_react。$(br)受击概率点火，不额外耗耐久；与火系武器条件配合。"
+    }
+  ]
+}

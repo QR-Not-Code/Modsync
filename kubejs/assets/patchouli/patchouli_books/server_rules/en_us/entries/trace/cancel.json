@@ -1,0 +1,24 @@
+{
+  "name": "取消当前追回",
+  "category": "patchouli:trace",
+  "icon": "minecraft:barrier",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "/trace cancel 结束当前追回。开启时花费的经验不会返还。存档和它已累计的追回中死亡次数保留。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "取消后可重新 /trace 选择记录，但需要再次支付开启费用。取消不会把之前的死亡次数清零，也不会解锁存档。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/active_death",
+        "patchouli:trace/list"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

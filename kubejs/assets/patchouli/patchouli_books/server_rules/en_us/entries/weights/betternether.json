@@ -1,0 +1,24 @@
+{
+  "name": "更好的下界 · 2项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为更好的下界的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)黑曜石破坏者$()：每级 1.5 分。$(br)注册名：obsidian_breaker。$(br)特定黑曜石采掘加速；生产收益强但方块范围有限。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)红宝石之火$()：每级 2.0 分。$(br)注册名：ruby_fire。$(br)随工具/武器/盔甲有自动熔炼、火焰及反制功能；兼顾资源与火系组合潜力。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Alex 的生物 · 4项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为Alex 的生物的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)返板$()：每级 0.75 分。$(br)注册名：board_return。$(br)跨板损坏回收；有限物品范围的便利效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)熔岩防护$()：每级 1.5 分。$(br)注册名：lavawax。$(br)骑跨板给予防火；条件限定，但免疫岩浆火焰很实用。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)舞蛇者$()：每级 0.75 分。$(br)注册名：serpentfriend。$(br)骑跨板不被骨蟒敌对；有限目标免战。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)跳跃跨板$()：每级 0.75 分。$(br)注册名：straddle_jump。$(br)提高跨板跳跃；交通便利，没有直接战斗增伤。"
+    }
+  ]
+}

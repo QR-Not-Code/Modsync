@@ -1,0 +1,46 @@
+{
+  "name": "实体来源：护甲前伤害",
+  "category": "patchouli:combat",
+  "icon": "minecraft:diamond_chestplate",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "受到实体来源伤害时，在原版护甲计算之前执行：$(br)（原伤害＋阶数÷2）×时间倍率×（1＋阶数÷5）。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "阶数指显示的1～5阶。这一结果之后再进入原版护甲、抗性、附魔减伤等处理。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/damage_flow.png"
+      ],
+      "border": false,
+      "title": "伤害顺序",
+      "text": "倍率先作用于护甲前伤害，再进入后续防御处理。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "例如原伤害10、3阶、在线50小时：$(br)(10＋1.5)×2.575×1.6＝47.38。$(br)这是护甲前伤害，不是必定扣掉47.38生命。若触发生物暴击，这一结果再乘2。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "实体来源包括近战、能识别来源的箭矢和模组投射物，也包括带实体来源的爆炸、落块等。最终以伤害事件携带的直接实体或归属实体判断。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "模组若先取消伤害、直接改生命或绕过标准事件，表现可能不同。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:combat/critical",
+        "patchouli:combat/environment",
+        "patchouli:combat/outgoing"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

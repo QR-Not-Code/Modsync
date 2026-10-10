@@ -1,0 +1,30 @@
+{
+  "name": "魂缚晶：额外阶位奖励",
+  "category": "patchouli:loot",
+  "icon": "legendblade:soul_crystal",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "击杀可归属玩家的非玩家生物，会按玩家阶位独立判定额外掉落1个魂缚晶：$(br)1阶0%，2阶1.6%，3阶10%，4阶20%，5阶50%。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这是额外奖励，保留模组原本的魂缚晶和其他掉落。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "legendblade:soul_crystal",
+      "title": "魂缚晶",
+      "text": "每次符合条件的击杀至多额外奖励1个。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "近战、弓箭和能够识别玩家归属的模组武器都可参加。宠物、无人归属投射物或特殊死亡方式是否归属玩家，要看伤害来源或最近击杀归属。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "玩家和盔甲架不是本奖励的目标。每次概率独立，多次未掉落不会自动累积保底。"
+    }
+  ]
+}

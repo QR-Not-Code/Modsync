@@ -1,0 +1,20 @@
+{
+  "name": "炽海生机 · 1项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为炽海生机的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)地狱探索者$()：每级 0.75 分。$(br)注册名：hell_strider。$(br)熔岩游泳速度；与深海探索者同类便利，仍需要额外防火。"
+    }
+  ]
+}

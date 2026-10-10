@@ -1,0 +1,20 @@
+{
+  "name": "起源 · 1项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为起源的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)防水$()：每级 0.75 分。$(br)注册名：water_protection。$(br)延后怕水种族的水伤；条件限定，按原版专类便利基准。"
+    }
+  ]
+}

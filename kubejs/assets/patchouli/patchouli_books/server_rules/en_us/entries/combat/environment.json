@@ -1,0 +1,24 @@
+{
+  "name": "环境伤害与“上限”",
+  "category": "patchouli:combat",
+  "icon": "minecraft:lava_bucket",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "没有实体来源的环境伤害沿用原规则：$(br)护甲前伤害=原伤害×时间倍率。$(br)不加阶数÷2，也不乘1＋阶数÷5。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "常见例子有普通摔落、溺水和持续燃烧；实际仍取决于伤害来源有没有关联实体。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "4倍只是时间倍率上限，不是所有伤害的总上限。实体伤害还有阶位加项、阶位系数和可能的2倍暴击。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "小额原伤害因为先加阶数÷2，相对原伤害的增长可能明显超过时间倍率。护甲最终能减多少还取决于装备和其他模组。"
+    }
+  ]
+}

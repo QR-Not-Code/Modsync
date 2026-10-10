@@ -1,0 +1,32 @@
+{
+  "name": "停留10秒并领取",
+  "category": "patchouli:trace",
+  "icon": "minecraft:chest",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在目标维度死亡地点5格内连续停留10秒，会收到可以领取的提示。执行 /claim 将该记录里的物品生成在你的位置，随后自行拾取。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "范围按三维直线距离计算，不仅看水平距离。无需站在死亡时的同一格。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "离开范围、换维度、死亡、断线或重启后的停留需要重新累计。范围内移动不会要求你完全站着不动。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "成功生成全部物品后删除存档，并对其余记录重新编号。领取不会再次收取普通追回费用。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "物品是地面掉落，需要注意火、岩浆、虚空和背包空间。物品生成失败时会提示并保留存档，查看 /trace items 确认内容，不要把失败提示当成已经领取。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "模组物品的特殊掉落实体也会按物品接口处理，包括旅行者背包等。"
+    }
+  ]
+}

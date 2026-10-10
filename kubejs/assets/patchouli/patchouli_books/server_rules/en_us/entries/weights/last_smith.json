@@ -1,0 +1,24 @@
+{
+  "name": "最后的太刀匠人 · 2项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为最后的太刀匠人的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)灵魂汲取$()：每级 1.25 分。$(br)注册名：spirit_absorption。$(br)每级增加20%荣耀之魂获得量，支持拔刀资源和成长；不是吸血治疗。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)灵魂切裂$()：每级 1.5 分。$(br)注册名：spirit_slash。$(br)每次击杀给刀额外增加等于附魔等级的杀敌数；支持刀成长，不是直接穿甲伤害。"
+    }
+  ]
+}
