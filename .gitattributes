@@ -220,3 +220,17 @@ mods/vault_ui-1.0.0-beta9.jar filter=lfs diff=lfs merge=lfs -text
 mods/waveycapes-forge-1.11.2-mc1.20.1.jar filter=lfs diff=lfs merge=lfs -text
 mods/xaeros_waystones_compatibility-1.1[[:space:]]-[[:space:]]1.20.1.jar filter=lfs diff=lfs merge=lfs -text
 mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar filter=lfs diff=lfs merge=lfs -text
+mods/Corgilib-Forge-1.20.1-4.0.3.6.jar filter=lfs diff=lfs merge=lfs -text
+mods/KotlinLangForge-kff-compat-2.15.0-k2.4.21-2.0+forge.jar filter=lfs diff=lfs merge=lfs -text
+mods/Ksyxis-1.4.6.jar filter=lfs diff=lfs merge=lfs -text
+mods/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.3.jar filter=lfs diff=lfs merge=lfs -text
+mods/PuzzlesLib-v8.1.35-1.20.1-Forge.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[传世遗产库\][[:space:]]legendreliclib-1.5.0.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[同伴与对手\][[:space:]]friendsandfoes-forge-5.0.2+mc1.20.1.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[实体渲染机制优化\][[:space:]]entityculling-forge-1.11.3-mc1.20.1.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[我们走过的生物群系\][[:space:]]Oh-The-Biomes-Weve-Gone-Forge-1.8.2.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[机械动力：末影传输\][[:space:]]createendertransmission-2.1.1-1.20.1.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[机械动力：附魔工业\][[:space:]]create-enchantment-industry-2.5.4b.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[现代化修复\][[:space:]]modernfix-forge-5.27.87+mc1.20.1.jar filter=lfs diff=lfs merge=lfs -text
+mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar filter=lfs diff=lfs merge=lfs -text
+mods/mezz_config-1.20.1-forge-0.6.8.jar filter=lfs diff=lfs merge=lfs -text
