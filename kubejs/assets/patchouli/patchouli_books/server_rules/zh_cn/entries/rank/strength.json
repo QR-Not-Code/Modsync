@@ -1,0 +1,42 @@
+{
+  "name": "单件附魔强度怎样计算",
+  "category": "patchouli:rank",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "每项贡献=附魔等级×该附魔的单级强度。把同一件物品上的贡献相加，得到该物品的强度和。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "所有原版附魔每级均为0.75分。模组附魔按附录中的单级分数计算；这些分数是本服务器的进阶评价，不是伤害倍率。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/strength_example.png"
+      ],
+      "border": false,
+      "title": "计分示例",
+      "text": "原版保护Ⅳ＋耐久Ⅲ：4×0.75＋3×0.75＝5.25。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "同一附魔等级越高，贡献按等级线性增加。强力叠加收益已经考虑在评分中，不会在计分时额外再乘组合倍率。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "一组物品堆叠多少件不会倍增分数。多件物品、整套盔甲的分数不相加，始终取单件最高分。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/scan",
+        "patchouli:rank/thresholds",
+        "patchouli:weights/baseline"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

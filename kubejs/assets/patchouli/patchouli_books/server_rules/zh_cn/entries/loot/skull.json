@@ -1,0 +1,30 @@
+{
+  "name": "凋零骷髅：50%头颅",
+  "category": "patchouli:loot",
+  "icon": "minecraft:wither_skeleton_skull",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "凋零骷髅正常执行死亡掉落表时，不限制击杀来源，固定50%概率掉落1个头颅。近战、弓箭、模组武器和环境死亡都可参与。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "此规则先移除原头颅掉落，再进行一次50%判定。抢夺不会额外提高这项概率。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wither_skeleton",
+      "text": "每次独立判定：50%不是每两只必掉一个。",
+      "scale": 0.85
+    },
+    {
+      "type": "patchouli:text",
+      "text": "只有发生死亡并正常执行掉落表才会判定。直接移除实体、取消死亡掉落或关闭相关掉落规则，不等同于一次正常掉落判定。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "头颅规则和阶位魂缚晶奖励分别判定，不互相替代。"
+    }
+  ]
+}

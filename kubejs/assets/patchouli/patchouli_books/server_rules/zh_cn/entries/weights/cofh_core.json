@@ -1,0 +1,20 @@
+{
+  "name": "CoFH 核心 · 1项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为CoFH 核心的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)扩容$()：每级 1.5 分。$(br)注册名：holding。$(br)提高支持物品的储量；燃料/资源设备持续使用收益。"
+    }
+  ]
+}

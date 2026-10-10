@@ -1,0 +1,32 @@
+{
+  "name": "查看存档与物品清单",
+  "category": "patchouli:trace",
+  "icon": "minecraft:paper",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "/trace list 查看自己的存档数量、容量、编号、死亡维度坐标、锁定状态、追回状态和累计追回中死亡次数。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "/trace items <编号> 查看指定存档每组物品的名称与数量。例如 /trace items 1 查看最新记录。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这些查询免费，不开启追回状态，不扣经验。存档数量达到阶位容量时会红字警告。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "编号不是永久编号。领取成功后，原第2条可能变成第1条；使用指令前请重新查看列表，确认目标。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/begin",
+        "patchouli:trace/lock"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

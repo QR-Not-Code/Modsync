@@ -1,0 +1,33 @@
+{
+  "name": "评分基准与未列附魔",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "所有 minecraft 命名空间的原版附魔，每级统一0.75分，包括原版诅咒。本附录列出154种已评分模组附魔，按模组分组。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每项表示单级强度，不是附魔当前等级；实际贡献还要乘物品上的附魔等级。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分用于进阶，考虑了效果、使用条件和强力组合。例如速度转闪避、跨装备防御叠加等会提高评分。它不保证不同分数代表同等实际伤害或减伤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "未列入表的新模组附魔暂按每级10分。被停用的功能可能记0分，以当前服务器评分表为准。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/strength_example.png"
+      ],
+      "border": false,
+      "title": "等级 × 单级分数",
+      "text": "具体到你那件物品的贡献，请查看 /state details。"
+    }
+  ]
+}

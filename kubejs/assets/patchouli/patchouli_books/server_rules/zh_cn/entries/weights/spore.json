@@ -1,0 +1,48 @@
+{
+  "name": "真菌感染：孢子 · 8项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下为真菌感染：孢子的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)腐化效能$()：每级 3.0 分。$(br)注册名：corrosive_potency。$(br)当前2.2.0j命中施加腐蚀II约3秒；持续削弱和异况超量组合潜力。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)急冻之触$()：每级 2.0 分。$(br)注册名：cryogenic_aspect。$(br)当前命中增加300冻结tick；冻结控制和冰爆/异况超量联动。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)胆汁回流$()：每级 4.0 分。$(br)注册名：gastric_spewage。$(br)命中施加胆汁的一组效果；多负面同时放大异况超量，具体效果以本机配置为准。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)诱变反应$()：每级 0.0 分。$(br)注册名：mutagenic_reactant。$(br)有利真菌而伤害宿主的诅咒；不给负分以免通过加诅咒压低阶位。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)裂毒倒刺$()：每级 3.5 分。$(br)注册名：serrated_thorns。$(br)当前按全套总等级反击3.5伤害/级并毒或腐蚀；跨护甲叠加，保留控制组合潜力。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)共生重塑$()：每级 1.25 分。$(br)注册名：symbiotic_reconstitution。$(br)共生状态下修复装备；共生本身的生命/攻击加成不错误算成附魔提供。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)恒定自然$()：每级 0.75 分。$(br)注册名：unwavering_nature。$(br)感染自己与目标的诅咒，有敌方状态/诱敌机制；保留组合潜力而不做负分。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)暴食巨口$()：每级 1.5 分。$(br)注册名：voracious_maw。$(br)以肉修复装备，头盔上命中生物还有10%概率回复6饥饿；修理和食物续航联动，不是吸血回血。"
+    }
+  ]
+}

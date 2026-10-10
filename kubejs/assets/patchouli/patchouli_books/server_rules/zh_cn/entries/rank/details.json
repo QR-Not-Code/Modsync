@@ -1,0 +1,32 @@
+{
+  "name": "查看计入的物品明细",
+  "category": "patchouli:rank",
+  "icon": "minecraft:written_book",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "执行 /state 后，点击聊天面板中的阶位或最高强度数字，打开明细书。也可以直接执行 /state details。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "明细说明计入的是哪件物品、记录时所在位置，以及每项附魔的“等级×单级强度=贡献”，最后列出合计。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "查看明细免费，只能查看自己。物品已丢弃时仍能查看记录快照。明细很多时自动分页、分册，用 /state details <册数> 打开指定册。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "旧记录若缺少对应物品资料，会明确提示无法反推物品。主动 /state re 可按当前背包建立新记录，但可能降阶。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/reassess",
+        "patchouli:weights/baseline"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

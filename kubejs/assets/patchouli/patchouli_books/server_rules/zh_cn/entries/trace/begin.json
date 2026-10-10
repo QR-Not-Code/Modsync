@@ -1,0 +1,50 @@
+{
+  "name": "开启追回与经验费用",
+  "category": "patchouli:trace",
+  "icon": "minecraft:compass",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "/trace 等同 /trace 1，选择最新存档。/trace <编号> 选择对应记录，例如 /trace 2。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每次成功开启消耗（11－阶数）级经验：1～5阶依次10、9、8、7、6级。经验不足时无法开启，会告诉你所需等级。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "同时只能有一个追回目标。开启后聊天给出死亡维度和坐标。回到对应维度、死亡地点半径5格内连续停留10秒，再执行 /claim。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "先确认目标和费用再开启；查看 /trace list 与 /trace items 不扣费。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/radius.png"
+      ],
+      "border": false,
+      "title": "领取范围",
+      "text": "同维度、三维距离≤5格，连续停留10秒。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "创造模式开启 /trace 不消耗经验，仍需按规则返回地点并停留。死亡存档仍由自己的阶位容量限制。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "已经开启追回时不能直接再开另一个；先成功领取，或 /trace cancel 取消。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/claim",
+        "patchouli:trace/cancel",
+        "patchouli:trace/active_death"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

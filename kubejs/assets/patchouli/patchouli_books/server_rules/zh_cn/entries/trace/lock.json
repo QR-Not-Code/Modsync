@@ -1,0 +1,32 @@
+{
+  "name": "3阶起：锁定记录",
+  "category": "patchouli:trace",
+  "icon": "minecraft:iron_ingot",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "达到3阶可以用 /trace lock <编号> 锁定死亡存档。每次新锁定消耗50级经验；经验不足则不执行。重复锁定同一条不会再次扣费。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "锁定后，该记录不会因普通新死亡超过容量而被替换。锁定占用容量，不增加容量。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "锁定不能防止降阶后的超容量清除，也不能防止累计追回中死亡3次销毁目标存档。没有面向玩家的解锁指令；领取成功会删除这条记录。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "创造模式的锁定仍需要50级；免经验只适用于开启 /trace 和高级 /advtrace。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/capacity",
+        "patchouli:trace/active_death"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

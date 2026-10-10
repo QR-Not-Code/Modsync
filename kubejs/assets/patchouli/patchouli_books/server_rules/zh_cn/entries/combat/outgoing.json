@@ -1,0 +1,30 @@
+{
+  "name": "玩家输出与生物生命",
+  "category": "patchouli:combat",
+  "icon": "minecraft:bow",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "玩家造成的伤害在最终伤害阶段按自己的阶位缩减：$(br)1阶×1；2阶×1/3；3阶×1/25；4阶×1/75；5阶×1/200。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "包括能追溯玩家发射者的远程攻击和模组武器。已经取消的事件或直接改生命的效果可能不会经过这项规则。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie",
+      "text": "非玩家生物最大生命×2，玩家生命不因此增加。",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:text",
+      "text": "PvP时，先按受击玩家的阶位和在线时长处理护甲前受伤，再进入防御，最后按攻击者阶位缩减输出。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "非玩家生物最大生命固定×2，重启或重新加载区块不会不断叠乘。盔甲架不参与生命翻倍。玩家最大生命不由此脚本修改。"
+    }
+  ]
+}

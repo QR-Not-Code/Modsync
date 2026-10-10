@@ -1,0 +1,6 @@
+{
+  "name": "二 · 阶位与附魔强度",
+  "icon": "minecraft:enchanted_book",
+  "description": "单件物品的附魔强度决定阶位，逐项了解门槛与效果。",
+  "sortnum": 1
+}

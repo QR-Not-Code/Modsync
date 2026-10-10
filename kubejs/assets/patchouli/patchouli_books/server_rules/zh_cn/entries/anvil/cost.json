@@ -1,0 +1,49 @@
+{
+  "name": "铁砧费用逐渐封顶",
+  "category": "patchouli:anvil",
+  "icon": "minecraft:anvil",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "有效铁砧操作的等级费用由物品上的操作次数决定，不再让原版历史惩罚指数增长。第1次仍为1级。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "费用函数：向上取整[60－59×√(3÷(n＋2))]，最后限制在1～60级；n为这次完成后的计数。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/anvil_curve.png"
+      ],
+      "border": false,
+      "title": "铁砧费用曲线",
+      "text": "第10次31级，第100次50级，最高60级。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "第1～10次依次是：$(br)1、9、15、19、22、24、26、28、30、31级。$(br)第10次才超过30，第100次50，之后缓慢趋于60。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "同一次合并的费用不是按书上每个附魔重复收取。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "标准附魔、书籍合并、装备合并、修理和改名都可能形成一次有效操作。合并时按两件输入中较大的计数加1，并保存到新产物。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "仅把物品放进铁砧又拿出来、只看预览，不应增加操作次数或扣经验。"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:anvil/old_items",
+        "patchouli:anvil/experience"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}
