@@ -1,0 +1,30 @@
+{
+  "name": "追回中死亡: 三次上限",
+  "category": "patchouli:trace",
+  "icon": "minecraft:redstone",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:rich/trace_active_death_0"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/trace_active_death_3"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/cancel",
+        "patchouli:trace/lock"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

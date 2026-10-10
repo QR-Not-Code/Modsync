@@ -1,0 +1,17 @@
+{
+  "name": "Insight",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:xp_boost\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 190,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Insight",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

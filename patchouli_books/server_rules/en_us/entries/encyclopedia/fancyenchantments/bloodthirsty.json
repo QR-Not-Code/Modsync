@@ -1,0 +1,17 @@
+{
+  "name": "嗜血",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:bloodthirsty\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 206,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "嗜血",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

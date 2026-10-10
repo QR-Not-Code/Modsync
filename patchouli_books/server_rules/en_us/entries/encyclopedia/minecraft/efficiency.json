@@ -1,0 +1,17 @@
+{
+  "name": "效率",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 106,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "效率",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

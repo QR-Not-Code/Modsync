@@ -1,0 +1,17 @@
+{
+  "name": "冲击",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:punch\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 126,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "冲击",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

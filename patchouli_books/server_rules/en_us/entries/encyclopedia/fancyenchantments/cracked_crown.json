@@ -1,0 +1,17 @@
+{
+  "name": "破碎皇冠",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:cracked_crown\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 213,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "破碎皇冠",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

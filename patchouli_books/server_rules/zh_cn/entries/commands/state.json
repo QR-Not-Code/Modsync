@@ -1,0 +1,31 @@
+{
+  "name": "状态, 明细与重选",
+  "category": "patchouli:commands",
+  "icon": "minecraft:written_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/commands_state_1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/reassess",
+        "patchouli:origins/choices"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

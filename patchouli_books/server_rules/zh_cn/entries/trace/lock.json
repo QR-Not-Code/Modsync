@@ -1,0 +1,32 @@
+{
+  "name": "3阶起: 锁定记录",
+  "category": "patchouli:trace",
+  "icon": "minecraft:iron_ingot",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/capacity",
+        "patchouli:trace/active_death"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

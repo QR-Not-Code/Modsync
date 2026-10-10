@@ -1,0 +1,17 @@
+{
+  "name": "炽焰之斥",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:fire_rebuke\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 172,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "炽焰之斥",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

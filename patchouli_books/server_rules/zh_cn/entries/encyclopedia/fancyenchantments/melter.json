@@ -1,0 +1,17 @@
+{
+  "name": "熔化",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:melter\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 244,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "熔化",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

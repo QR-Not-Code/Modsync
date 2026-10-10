@@ -1,0 +1,32 @@
+{
+  "name": "查看存档与物品清单",
+  "category": "patchouli:trace",
+  "icon": "minecraft:paper",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/begin",
+        "patchouli:trace/lock"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

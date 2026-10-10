@@ -1,0 +1,17 @@
+{
+  "name": "多重射击",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 121,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "多重射击",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

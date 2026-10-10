@@ -1,0 +1,16 @@
+{
+  "name": "起源 - 1项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "起源 - 1项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_origins_1"
+    }
+  ]
+}

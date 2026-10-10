@@ -1,0 +1,17 @@
+{
+  "name": "打磨",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:sander\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 263,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "打磨",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

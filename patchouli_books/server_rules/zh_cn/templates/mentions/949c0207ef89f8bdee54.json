@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "降到$(#875b20)$(o)5阶$()以下后不再拥有无$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "限重选资格; 原有职业余$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "次数保留, 低于$(#875b20)$(o)2阶$()不能使$()",
+      "x": 0,
+      "y": 50,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用职业重选. $()",
+      "x": 0,
+      "y": 63,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

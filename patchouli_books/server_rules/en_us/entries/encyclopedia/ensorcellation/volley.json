@@ -1,0 +1,17 @@
+{
+  "name": "齐射",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:volley\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 188,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "齐射",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "服务器冒险手册",
+  "landing_text": "$(playername)$(br)欢迎阅读服务器指南.",
+  "version": 14,
+  "subtitle": "规则 v2.11 - 排版 v1.7.7",
+  "use_resource_pack": false,
+  "model": "patchouli:book_blue",
+  "book_texture": "patchouli:textures/gui/book_blue.png",
+  "show_progress": false,
+  "show_toasts": false,
+  "text_color": "263945",
+  "header_color": "183a50",
+  "link_color": "6B4897",
+  "link_hover_color": "b27632",
+  "text_overflow_mode": "resize",
+  "use_blocky_font": false,
+  "i18n": false
+}

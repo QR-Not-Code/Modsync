@@ -1,0 +1,17 @@
+{
+  "name": "无畏的挑战者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:fearless_challenger\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 228,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "无畏的挑战者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

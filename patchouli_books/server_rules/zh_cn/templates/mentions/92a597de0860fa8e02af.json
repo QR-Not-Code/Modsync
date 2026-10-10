@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:knockback\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 24,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/minecraft/knockback)$(#6b4897)击退 1级$(/l)$()",
+      "x": 22,
+      "y": 27,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": "单级强度: 0.75$()",
+      "x": 0,
+      "y": 48,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

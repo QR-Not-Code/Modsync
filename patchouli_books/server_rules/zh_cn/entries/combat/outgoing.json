@@ -1,0 +1,35 @@
+{
+  "name": "玩家输出与生物生命",
+  "category": "patchouli:combat",
+  "icon": "minecraft:bow",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie",
+      "text": "",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

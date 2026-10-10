@@ -1,0 +1,16 @@
+{
+  "name": "圣化 - 1项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "圣化 - 1项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_consecration_1"
+    }
+  ]
+}

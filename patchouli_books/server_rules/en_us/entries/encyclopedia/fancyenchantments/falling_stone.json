@@ -1,0 +1,17 @@
+{
+  "name": "落石",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:falling_stone\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 227,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "落石",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

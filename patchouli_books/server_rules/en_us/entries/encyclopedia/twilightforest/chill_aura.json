@@ -1,0 +1,17 @@
+{
+  "name": "凛寒气场",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"twilightforest:chill_aura\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 290,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "凛寒气场",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

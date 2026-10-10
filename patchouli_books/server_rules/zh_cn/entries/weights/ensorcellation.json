@@ -1,0 +1,103 @@
+{
+  "name": "万象 - 30项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "万象 - 30项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_1"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_2"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_3"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_4"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_5"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_6"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_7"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_8"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_9"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_10"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_11"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_12"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_13"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_14"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_15"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_16"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_17"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_18"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_19"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_20"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_21"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_22"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_23"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_24"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_25"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_26"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_27"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_28"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_29"
+    },
+    {
+      "type": "patchouli:rich/weights_ensorcellation_30"
+    }
+  ]
+}

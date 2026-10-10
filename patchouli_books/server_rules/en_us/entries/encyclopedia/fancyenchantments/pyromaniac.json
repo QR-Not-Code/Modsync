@@ -1,0 +1,17 @@
+{
+  "name": "纵火狂",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:pyromaniac\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 257,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "纵火狂",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

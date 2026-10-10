@@ -1,0 +1,17 @@
+{
+  "name": "坚如磐石",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:solid_as_a_rock\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 267,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "坚如磐石",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

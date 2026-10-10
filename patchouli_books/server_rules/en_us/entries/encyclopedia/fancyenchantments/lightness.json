@@ -1,0 +1,17 @@
+{
+  "name": "轻盈",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:lightness\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 242,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "轻盈",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

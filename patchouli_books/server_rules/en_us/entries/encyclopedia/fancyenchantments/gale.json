@@ -1,0 +1,17 @@
+{
+  "name": "疾风",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:gale\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 234,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "疾风",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "容量, 替换与降阶",
+  "category": "patchouli:trace",
+  "icon": "minecraft:ender_chest",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/capacity.png"
+      ],
+      "border": false,
+      "title": "容量与锁定",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/lock",
+        "patchouli:rank/reassess"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

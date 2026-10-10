@@ -1,0 +1,19 @@
+{
+  "name": "机械动力 - 2项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "机械动力 - 2项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_create_1"
+    },
+    {
+      "type": "patchouli:rich/weights_create_2"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "异况超量",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:condition_overload\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 211,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "异况超量",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

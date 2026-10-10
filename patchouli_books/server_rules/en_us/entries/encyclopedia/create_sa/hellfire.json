@@ -1,0 +1,17 @@
+{
+  "name": "地狱火",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"create_sa:hellfire\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 154,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "地狱火",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

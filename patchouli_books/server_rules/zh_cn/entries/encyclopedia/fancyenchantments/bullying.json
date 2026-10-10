@@ -1,0 +1,17 @@
+{
+  "name": "凌弱",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:bullying\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 208,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "凌弱",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

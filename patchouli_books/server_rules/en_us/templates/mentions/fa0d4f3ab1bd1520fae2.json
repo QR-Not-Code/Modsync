@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "职业重选余次数保留. 同$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "一晋升奖励不会靠反复重评$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": ", $(#a04a38)$(o)降阶$()和再晋升重复领取.$()",
+      "x": 0,
+      "y": 50,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": " 降到$(#875b20)$(o)5阶$()以下会失去无限$()",
+      "x": 0,
+      "y": 63,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "重选权益. $()",
+      "x": 0,
+      "y": 76,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

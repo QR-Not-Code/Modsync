@@ -1,0 +1,17 @@
+{
+  "name": "滚石",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:rolling_stone\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 261,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "滚石",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

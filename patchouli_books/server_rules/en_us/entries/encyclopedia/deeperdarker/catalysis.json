@@ -1,0 +1,17 @@
+{
+  "name": "催发",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"deeperdarker:catalysis\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 159,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "催发",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

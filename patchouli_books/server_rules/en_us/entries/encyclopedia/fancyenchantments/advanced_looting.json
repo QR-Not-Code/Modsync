@@ -1,0 +1,17 @@
+{
+  "name": "高级抢夺",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:advanced_looting\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 194,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "高级抢夺",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

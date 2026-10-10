@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "死亡后保留当前经验点的一$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "半 (向下取整), 不再清$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "空经验. 等级和经验条进$()",
+      "x": 0,
+      "y": 50,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "度都计入. 死亡不会掉落$()",
+      "x": 0,
+      "y": 63,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "经验球, 不影响原有物品$()",
+      "x": 0,
+      "y": 76,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "存档与$(#347750)$(o)$()",
+      "x": 0,
+      "y": 89,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:soulbound\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 102,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/ensorcellation/soulbound)$(#6b4897)灵魂绑定 1级$(/l)$()",
+      "x": 22,
+      "y": 105,
+      "max_width": 86,
+      "line_height": 9
+    }
+  ]
+}

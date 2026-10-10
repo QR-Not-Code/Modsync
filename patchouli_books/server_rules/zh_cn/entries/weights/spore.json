@@ -1,0 +1,37 @@
+{
+  "name": "真菌感染: 孢子 - 8项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "真菌感染: 孢子 - 8项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_spore_1"
+    },
+    {
+      "type": "patchouli:rich/weights_spore_2"
+    },
+    {
+      "type": "patchouli:rich/weights_spore_3"
+    },
+    {
+      "type": "patchouli:rich/weights_spore_4"
+    },
+    {
+      "type": "patchouli:rich/weights_spore_5"
+    },
+    {
+      "type": "patchouli:rich/weights_spore_6"
+    },
+    {
+      "type": "patchouli:rich/weights_spore_7"
+    },
+    {
+      "type": "patchouli:rich/weights_spore_8"
+    }
+  ]
+}

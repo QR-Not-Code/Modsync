@@ -1,0 +1,17 @@
+{
+  "name": "笨重",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:cumbersome\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 214,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "笨重",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

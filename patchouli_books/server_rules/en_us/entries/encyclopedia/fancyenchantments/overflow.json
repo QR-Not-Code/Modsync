@@ -1,0 +1,17 @@
+{
+  "name": "满溢",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:overflow\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 251,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "满溢",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

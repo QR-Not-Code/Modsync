@@ -1,0 +1,17 @@
+{
+  "name": "灾厄杀手",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:damage_illager\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 168,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "灾厄杀手",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

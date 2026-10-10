@@ -1,0 +1,17 @@
+{
+  "name": "裂毒倒刺",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:serrated_thorns\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 286,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "裂毒倒刺",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

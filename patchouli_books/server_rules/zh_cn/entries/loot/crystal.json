@@ -1,0 +1,37 @@
+{
+  "name": "魂缚晶: 额外阶位奖励",
+  "category": "patchouli:loot",
+  "icon": "legendblade:soul_crystal",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "legendblade:soul_crystal",
+      "title": "魂缚晶",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:loot/experience"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

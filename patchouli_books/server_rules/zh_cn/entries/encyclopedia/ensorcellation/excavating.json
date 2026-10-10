@@ -1,0 +1,17 @@
+{
+  "name": "范围挖掘",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:excavating\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 171,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "范围挖掘",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

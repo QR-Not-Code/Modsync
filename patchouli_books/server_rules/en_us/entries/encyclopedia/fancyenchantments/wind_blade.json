@@ -1,0 +1,17 @@
+{
+  "name": "风刃",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:wind_blade\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 275,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "风刃",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

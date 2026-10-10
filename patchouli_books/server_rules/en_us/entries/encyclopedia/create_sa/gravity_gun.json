@@ -1,0 +1,17 @@
+{
+  "name": "重力枪",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"create_sa:gravity_gun\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 153,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "重力枪",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

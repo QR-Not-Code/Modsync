@@ -1,0 +1,17 @@
+{
+  "name": "Devotion",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"dawnera:devoted\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 157,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Devotion",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

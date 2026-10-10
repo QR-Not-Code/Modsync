@@ -1,0 +1,35 @@
+{
+  "name": "生物的25%双倍暴击",
+  "category": "patchouli:combat",
+  "icon": "minecraft:iron_axe",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:skeleton",
+      "text": "",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

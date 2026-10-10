@@ -1,0 +1,17 @@
+{
+  "name": "灵魂疾行",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:soul_speed\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 133,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "灵魂疾行",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

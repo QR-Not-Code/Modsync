@@ -1,0 +1,55 @@
+{
+  "name": "开启追回与经验费用",
+  "category": "patchouli:trace",
+  "icon": "minecraft:compass",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/radius.png"
+      ],
+      "border": false,
+      "title": "领取范围",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/claim",
+        "patchouli:trace/cancel",
+        "patchouli:trace/active_death"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

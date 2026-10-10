@@ -1,0 +1,17 @@
+{
+  "name": "节肢杀手",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 101,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "节肢杀手",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

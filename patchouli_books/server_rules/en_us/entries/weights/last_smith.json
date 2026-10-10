@@ -1,0 +1,19 @@
+{
+  "name": "最后的太刀匠人 - 2项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "最后的太刀匠人 - 2项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_last_smith_1"
+    },
+    {
+      "type": "patchouli:rich/weights_last_smith_2"
+    }
+  ]
+}

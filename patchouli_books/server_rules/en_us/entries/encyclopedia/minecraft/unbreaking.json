@@ -1,0 +1,17 @@
+{
+  "name": "耐久",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 137,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "耐久",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

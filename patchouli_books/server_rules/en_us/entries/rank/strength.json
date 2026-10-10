@@ -1,0 +1,36 @@
+{
+  "name": "单件附魔强度怎样计算",
+  "category": "patchouli:rank",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/rank_strength_2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/scan",
+        "patchouli:rank/thresholds",
+        "patchouli:weights/baseline"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

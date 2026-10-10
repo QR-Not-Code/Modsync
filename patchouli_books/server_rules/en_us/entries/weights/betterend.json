@@ -1,0 +1,16 @@
+{
+  "name": "更好的末地 - 1项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "更好的末地 - 1项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_betterend_1"
+    }
+  ]
+}

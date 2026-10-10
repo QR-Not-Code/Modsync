@@ -1,0 +1,54 @@
+{
+  "name": "铁砧费用逐渐封顶",
+  "category": "patchouli:anvil",
+  "icon": "minecraft:anvil",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/anvil_curve.png"
+      ],
+      "border": false,
+      "title": "铁砧费用曲线",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:anvil/old_items",
+        "patchouli:anvil/experience"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

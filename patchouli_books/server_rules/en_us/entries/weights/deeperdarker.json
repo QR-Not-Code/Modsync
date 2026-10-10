@@ -1,0 +1,19 @@
+{
+  "name": "幽邃黑暗 - 2项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "幽邃黑暗 - 2项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_deeperdarker_1"
+    },
+    {
+      "type": "patchouli:rich/weights_deeperdarker_2"
+    }
+  ]
+}

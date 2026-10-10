@@ -1,0 +1,17 @@
+{
+  "name": "叠浪",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:stacking_waves\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 269,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "叠浪",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

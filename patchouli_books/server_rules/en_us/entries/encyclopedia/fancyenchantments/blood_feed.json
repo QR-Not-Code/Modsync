@@ -1,0 +1,17 @@
+{
+  "name": "饮血",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:blood_feed\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 204,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "饮血",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Alex 的生物 - 4项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Alex 的生物 - 4项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_alexsmobs_1"
+    },
+    {
+      "type": "patchouli:rich/weights_alexsmobs_2"
+    },
+    {
+      "type": "patchouli:rich/weights_alexsmobs_3"
+    },
+    {
+      "type": "patchouli:rich/weights_alexsmobs_4"
+    }
+  ]
+}

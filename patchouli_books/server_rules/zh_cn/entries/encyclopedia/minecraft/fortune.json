@@ -1,0 +1,17 @@
+{
+  "name": "时运",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 111,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "时运",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "贪婪超级抢夺",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:greed_supreme_looting\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 236,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "贪婪超级抢夺",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

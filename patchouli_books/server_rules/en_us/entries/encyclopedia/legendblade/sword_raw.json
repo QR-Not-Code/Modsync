@@ -1,0 +1,17 @@
+{
+  "name": "幻影剑技·启",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"legendblade:sword_raw\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 279,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "幻影剑技·启",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

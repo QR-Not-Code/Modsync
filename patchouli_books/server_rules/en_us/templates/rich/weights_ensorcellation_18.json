@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:leech\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 29,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "",
+      "x": 22,
+      "y": 32,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": "",
+      "x": 0,
+      "y": 52,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

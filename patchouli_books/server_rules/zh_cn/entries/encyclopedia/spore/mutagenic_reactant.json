@@ -1,0 +1,17 @@
+{
+  "name": "诱变反应",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:mutagenic_reactant\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 285,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "诱变反应",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

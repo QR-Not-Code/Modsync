@@ -1,0 +1,17 @@
+{
+  "name": "黑曜石破坏者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"betternether:obsidian_breaker\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 144,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "黑曜石破坏者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

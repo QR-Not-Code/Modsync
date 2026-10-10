@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "单件强度示例",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "同一件物品上的附魔:",
+      "x": 0,
+      "y": 24
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 44,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/minecraft/protection)$(#6b4897)保护 4级$(/l)$()",
+      "x": 22,
+      "y": 46,
+      "max_width": 86
+    },
+    {
+      "type": "patchouli:text",
+      "text": "4 * 0.75 = 3",
+      "x": 22,
+      "y": 60,
+      "max_width": 86
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 80,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/minecraft/unbreaking)$(#6b4897)耐久 3级$(/l)$()",
+      "x": 22,
+      "y": 82,
+      "max_width": 86
+    },
+    {
+      "type": "patchouli:text",
+      "text": "3 * 0.75 = 2.25",
+      "x": 22,
+      "y": 96,
+      "max_width": 86
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(#347750)合计: 5.25$()",
+      "x": 0,
+      "y": 118
+    },
+    {
+      "type": "patchouli:text",
+      "text": "不同物品的分数不相加.",
+      "x": 0,
+      "y": 132
+    }
+  ]
+}

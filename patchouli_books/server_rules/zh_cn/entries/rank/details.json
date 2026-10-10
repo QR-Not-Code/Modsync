@@ -1,0 +1,26 @@
+{
+  "name": "查看计入的物品明细",
+  "category": "patchouli:rank",
+  "icon": "minecraft:written_book",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/rank_details_3"
+    },
+    {
+      "type": "patchouli:rich/rank_details_4"
+    }
+  ]
+}

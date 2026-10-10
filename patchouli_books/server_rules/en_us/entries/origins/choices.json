@@ -1,0 +1,44 @@
+{
+  "name": "职业与种族重选",
+  "category": "patchouli:origins",
+  "icon": "minecraft:totem_of_undying",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:totem_of_undying",
+      "title": "重选权益",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/origins_choices_3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/origins_choices_6"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/reassess",
+        "patchouli:commands/state"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

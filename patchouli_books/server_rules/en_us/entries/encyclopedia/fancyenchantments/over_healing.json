@@ -1,0 +1,17 @@
+{
+  "name": "过量治疗",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:over_healing\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 250,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "过量治疗",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

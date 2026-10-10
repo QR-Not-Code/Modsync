@@ -1,0 +1,17 @@
+{
+  "name": "精准采集",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 131,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "精准采集",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "共生重塑",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:symbiotic_reconstitution\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 287,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "共生重塑",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

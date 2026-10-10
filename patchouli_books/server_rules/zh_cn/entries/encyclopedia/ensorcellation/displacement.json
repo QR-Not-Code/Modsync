@@ -1,0 +1,17 @@
+{
+  "name": "移位",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:displacement\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 170,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "移位",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

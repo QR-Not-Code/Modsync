@@ -1,0 +1,17 @@
+{
+  "name": "延伸",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:reach\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 184,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "延伸",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

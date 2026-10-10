@@ -1,0 +1,17 @@
+{
+  "name": "末影杀手",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:damage_ender\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 167,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "末影杀手",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "快速拉弓",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:quick_draw\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 183,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "快速拉弓",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

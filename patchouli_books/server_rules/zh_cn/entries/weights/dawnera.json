@@ -1,0 +1,22 @@
+{
+  "name": "黎明纪元 - 3项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "黎明纪元 - 3项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_dawnera_1"
+    },
+    {
+      "type": "patchouli:rich/weights_dawnera_2"
+    },
+    {
+      "type": "patchouli:rich/weights_dawnera_3"
+    }
+  ]
+}

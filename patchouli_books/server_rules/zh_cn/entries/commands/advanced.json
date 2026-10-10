@@ -1,0 +1,23 @@
+{
+  "name": "5阶高级追回指令",
+  "category": "patchouli:commands",
+  "icon": "minecraft:nether_star",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/advanced"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

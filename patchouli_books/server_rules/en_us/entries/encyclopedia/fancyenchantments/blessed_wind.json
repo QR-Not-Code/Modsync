@@ -1,0 +1,17 @@
+{
+  "name": "风之祝福",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:blessed_wind\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 202,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "风之祝福",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

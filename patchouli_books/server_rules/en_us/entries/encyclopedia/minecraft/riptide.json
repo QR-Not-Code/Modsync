@@ -1,0 +1,17 @@
+{
+  "name": "激流",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 129,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "激流",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

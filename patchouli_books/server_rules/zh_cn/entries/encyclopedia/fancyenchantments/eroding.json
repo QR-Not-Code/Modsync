@@ -1,0 +1,17 @@
+{
+  "name": "磨损",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:eroding\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 225,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "磨损",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

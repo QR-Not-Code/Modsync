@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "玩法模组",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:image",
+      "image": "serverguide:textures/mods/twilightforest.png",
+      "x": 10,
+      "y": 24,
+      "u": 0,
+      "v": 0,
+      "width": 740,
+      "height": 160,
+      "texture_width": 740,
+      "texture_height": 160,
+      "scale": 0.11891891891891893
+    },
+    {
+      "type": "patchouli:text",
+      "text": "",
+      "x": 0,
+      "y": 96,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "",
+      "x": 0,
+      "y": 131,
+      "max_width": 108,
+      "line_height": 9
+    }
+  ]
+}

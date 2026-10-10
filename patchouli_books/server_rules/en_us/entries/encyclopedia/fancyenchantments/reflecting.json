@@ -1,0 +1,17 @@
+{
+  "name": "反弹",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:reflecting\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 259,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "反弹",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

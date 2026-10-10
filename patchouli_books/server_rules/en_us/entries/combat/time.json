@@ -1,0 +1,46 @@
+{
+  "name": "在线100小时: 时间倍率",
+  "category": "patchouli:combat",
+  "icon": "minecraft:clock",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/time_curve.png"
+      ],
+      "border": false,
+      "title": "在线时间曲线",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:combat/incoming",
+        "patchouli:combat/environment"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

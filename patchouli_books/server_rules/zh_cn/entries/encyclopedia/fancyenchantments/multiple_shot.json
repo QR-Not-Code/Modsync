@@ -1,0 +1,17 @@
+{
+  "name": "万箭",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:multiple_shot\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 246,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "万箭",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

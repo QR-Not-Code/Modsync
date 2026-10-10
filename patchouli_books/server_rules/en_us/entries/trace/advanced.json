@@ -1,0 +1,38 @@
+{
+  "name": "5阶: 高级直接追回",
+  "category": "patchouli:trace",
+  "icon": "minecraft:nether_star",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:nether_star",
+      "title": "高级追回",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/claim",
+        "patchouli:trace/list"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

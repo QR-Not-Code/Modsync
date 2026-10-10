@@ -1,0 +1,46 @@
+{
+  "name": "Terralith",
+  "category": "patchouli:mods",
+  "icon": "minecraft:book",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "patchouli:rich/mod_title_mods_terralith_0"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "续页",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "核心玩法",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "关键机制",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "重要特性",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "游玩要点",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "资料与链接",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "续页",
+      "text": ""
+    }
+  ]
+}

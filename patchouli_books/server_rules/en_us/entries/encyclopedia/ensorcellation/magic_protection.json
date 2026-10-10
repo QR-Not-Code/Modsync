@@ -1,0 +1,17 @@
+{
+  "name": "魔法保护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:magic_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 180,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "魔法保护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

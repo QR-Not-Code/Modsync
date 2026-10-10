@@ -1,0 +1,17 @@
+{
+  "name": "高级火矢",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:advanced_flame\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 193,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "高级火矢",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

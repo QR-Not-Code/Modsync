@@ -1,0 +1,17 @@
+{
+  "name": "噬渊漩涡",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:abyssal_maelstrom\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 191,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "噬渊漩涡",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

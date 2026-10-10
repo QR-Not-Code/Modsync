@@ -1,0 +1,51 @@
+{
+  "name": "实体来源: 护甲前伤害",
+  "category": "patchouli:combat",
+  "icon": "minecraft:diamond_chestplate",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/damage_flow.png"
+      ],
+      "border": false,
+      "title": "伤害顺序",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:combat/critical",
+        "patchouli:combat/environment",
+        "patchouli:combat/outgoing"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

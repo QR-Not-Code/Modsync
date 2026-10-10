@@ -1,0 +1,6 @@
+{
+  "name": "其他手册",
+  "description": "自动列出服务器已注册的其他 Patchouli 手册. 点击右页标题即可打开, 无需领取物品.$(br2)只有客户端也安装了对应模组和手册资源, 才能打开. 这些手册的原始正文保持不变.",
+  "icon": "minecraft:bookshelf",
+  "sortnum": 100
+}

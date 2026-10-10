@@ -1,0 +1,31 @@
+{
+  "name": "机械动力: 物品附加 - 6项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "机械动力: 物品附加 - 6项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_create_sa_1"
+    },
+    {
+      "type": "patchouli:rich/weights_create_sa_2"
+    },
+    {
+      "type": "patchouli:rich/weights_create_sa_3"
+    },
+    {
+      "type": "patchouli:rich/weights_create_sa_4"
+    },
+    {
+      "type": "patchouli:rich/weights_create_sa_5"
+    },
+    {
+      "type": "patchouli:rich/weights_create_sa_6"
+    }
+  ]
+}

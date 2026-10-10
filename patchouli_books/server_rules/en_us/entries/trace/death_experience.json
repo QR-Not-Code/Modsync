@@ -1,0 +1,26 @@
+{
+  "name": "死亡经验与点击指令",
+  "category": "patchouli:trace",
+  "icon": "minecraft:experience_bottle",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:rich/trace_death_experience_0"
+    },
+    {
+      "type": "patchouli:rich/trace_death_experience_1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

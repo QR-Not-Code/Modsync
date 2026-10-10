@@ -1,0 +1,17 @@
+{
+  "name": "弹射物保护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:projectile_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 124,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "弹射物保护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

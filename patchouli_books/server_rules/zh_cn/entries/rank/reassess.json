@@ -1,0 +1,39 @@
+{
+  "name": "/state re: 重新评估自己",
+  "category": "patchouli:rank",
+  "icon": "minecraft:spyglass",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/rank_reassess_4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/capacity",
+        "patchouli:trace/lock"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

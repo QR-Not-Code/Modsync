@@ -1,0 +1,17 @@
+{
+  "name": "斩首",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:vorpal\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 189,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "斩首",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

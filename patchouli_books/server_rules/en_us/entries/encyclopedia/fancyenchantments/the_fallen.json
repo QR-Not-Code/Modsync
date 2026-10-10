@@ -1,0 +1,17 @@
+{
+  "name": "堕落者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:the_fallen\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 272,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "堕落者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "欢迎来到服务器",
+  "category": "patchouli:start",
+  "icon": "minecraft:book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "patchouli:guide_book{\"patchouli:book\":\"patchouli:server_rules\"}",
+      "title": "服务器冒险手册",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:start/quick_start",
+        "patchouli:commands/state",
+        "patchouli:trace/overview"
+      ],
+      "title": "继续阅读"
+    },
+    {
+      "type": "patchouli:rich/start_welcome_6"
+    }
+  ]
+}

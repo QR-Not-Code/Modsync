@@ -1,0 +1,17 @@
+{
+  "name": "深海探索者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 105,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "深海探索者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

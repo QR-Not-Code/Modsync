@@ -1,0 +1,17 @@
+{
+  "name": "冰霜行者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:frost_walker\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 112,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "冰霜行者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

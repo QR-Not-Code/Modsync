@@ -1,0 +1,17 @@
+{
+  "name": "高级保护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:advanced_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 195,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "高级保护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

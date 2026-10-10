@@ -1,0 +1,17 @@
+{
+  "name": "煽动",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:instigating\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 177,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "煽动",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Air Cutter",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"dawnera:air_cutter\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 156,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Air Cutter",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

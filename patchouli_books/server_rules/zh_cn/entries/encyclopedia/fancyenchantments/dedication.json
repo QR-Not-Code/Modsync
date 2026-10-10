@@ -1,0 +1,17 @@
+{
+  "name": "奉献",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:dedication\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 216,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "奉献",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

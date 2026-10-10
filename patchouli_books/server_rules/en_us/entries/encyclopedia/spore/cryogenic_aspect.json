@@ -1,0 +1,17 @@
+{
+  "name": "急冻之触",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:cryogenic_aspect\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 283,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "急冻之触",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

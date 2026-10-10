@@ -1,0 +1,46 @@
+{
+  "name": "死亡后物品去哪了",
+  "category": "patchouli:trace",
+  "icon": "minecraft:recovery_compass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:rich/trace_overview_0"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/trace_flow.png"
+      ],
+      "border": false,
+      "title": "死亡追回",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/list",
+        "patchouli:trace/begin",
+        "patchouli:trace/capacity"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

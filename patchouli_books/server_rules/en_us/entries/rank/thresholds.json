@@ -1,0 +1,43 @@
+{
+  "name": "五个阶位与晋升门槛",
+  "category": "patchouli:rank",
+  "icon": "minecraft:nether_star",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/ranks.png"
+      ],
+      "border": false,
+      "title": "晋阶阶梯",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/effects",
+        "patchouli:origins/choices",
+        "patchouli:trace/capacity"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

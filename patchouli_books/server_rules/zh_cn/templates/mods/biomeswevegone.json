@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "玩法模组",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:image",
+      "image": "serverguide:textures/mods/biomeswevegone.png",
+      "x": 10,
+      "y": 24,
+      "u": 0,
+      "v": 0,
+      "width": 1920,
+      "height": 991,
+      "texture_width": 1920,
+      "texture_height": 991,
+      "scale": 0.04583333333333333
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(#246d91)$(o)我们走过的生物群系$()",
+      "x": 0,
+      "y": 96,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "适用: 本服1.20.1",
+      "x": 0,
+      "y": 131,
+      "max_width": 108,
+      "line_height": 9
+    }
+  ]
+}

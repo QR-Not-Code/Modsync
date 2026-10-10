@@ -1,0 +1,44 @@
+{
+  "name": "每阶效果一览",
+  "category": "patchouli:rank",
+  "icon": "minecraft:diamond_sword",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/rank_effects_4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:combat/incoming",
+        "patchouli:loot/crystal",
+        "patchouli:trace/advanced"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

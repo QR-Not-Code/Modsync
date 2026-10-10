@@ -1,0 +1,17 @@
+{
+  "name": "屹立之壁",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:standing_wall\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 270,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "屹立之壁",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "环境伤害与\"上限\"",
+  "category": "patchouli:combat",
+  "icon": "minecraft:lava_bucket",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

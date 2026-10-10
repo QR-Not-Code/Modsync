@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "奖励进入生物死亡处的正常$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "经验球, 可以用于$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 50,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/minecraft/mending)$(#6b4897)经验修补 1级$(/l)$()",
+      "x": 22,
+      "y": 53,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": ", 也可能被其他玩家拾取;$()",
+      "x": 0,
+      "y": 74,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": " 并非直接把等级写入击杀$()",
+      "x": 0,
+      "y": 87,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "者. $()",
+      "x": 0,
+      "y": 100,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

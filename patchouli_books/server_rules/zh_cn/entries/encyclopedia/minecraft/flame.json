@@ -1,0 +1,17 @@
+{
+  "name": "火矢",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 110,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "火矢",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

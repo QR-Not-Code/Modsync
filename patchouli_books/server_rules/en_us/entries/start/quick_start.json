@@ -1,0 +1,47 @@
+{
+  "name": "先记住这四件事",
+  "category": "patchouli:start",
+  "icon": "minecraft:compass",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "serverguide:textures/guide/trace_flow.png"
+      ],
+      "border": false,
+      "title": "追回流程",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:rank/strength",
+        "patchouli:rank/reassess",
+        "patchouli:trace/begin"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

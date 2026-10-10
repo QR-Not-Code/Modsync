@@ -1,0 +1,22 @@
+{
+  "name": "暮色森林 - 3项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "暮色森林 - 3项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_twilightforest_1"
+    },
+    {
+      "type": "patchouli:rich/weights_twilightforest_2"
+    },
+    {
+      "type": "patchouli:rich/weights_twilightforest_3"
+    }
+  ]
+}

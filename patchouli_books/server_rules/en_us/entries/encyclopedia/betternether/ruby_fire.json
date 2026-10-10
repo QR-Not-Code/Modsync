@@ -1,0 +1,17 @@
+{
+  "name": "红宝石之火",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"betternether:ruby_fire\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 145,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "红宝石之火",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

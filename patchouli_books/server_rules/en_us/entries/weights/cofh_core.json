@@ -1,0 +1,16 @@
+{
+  "name": "CoFH 核心 - 1项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "CoFH 核心 - 1项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_cofh_core_1"
+    }
+  ]
+}

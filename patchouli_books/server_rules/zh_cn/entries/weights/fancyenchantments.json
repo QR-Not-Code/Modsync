@@ -1,0 +1,271 @@
+{
+  "name": "奇异附魔 - 86项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "奇异附魔 - 86项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_1"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_2"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_3"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_4"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_5"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_6"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_7"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_8"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_9"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_10"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_11"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_12"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_13"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_14"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_15"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_16"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_17"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_18"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_19"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_20"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_21"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_22"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_23"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_24"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_25"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_26"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_27"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_28"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_29"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_30"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_31"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_32"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_33"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_34"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_35"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_36"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_37"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_38"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_39"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_40"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_41"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_42"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_43"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_44"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_45"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_46"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_47"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_48"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_49"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_50"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_51"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_52"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_53"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_54"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_55"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_56"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_57"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_58"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_59"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_60"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_61"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_62"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_63"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_64"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_65"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_66"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_67"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_68"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_69"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_70"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_71"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_72"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_73"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_74"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_75"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_76"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_77"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_78"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_79"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_80"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_81"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_82"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_83"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_84"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_85"
+    },
+    {
+      "type": "patchouli:rich/weights_fancyenchantments_86"
+    }
+  ]
+}

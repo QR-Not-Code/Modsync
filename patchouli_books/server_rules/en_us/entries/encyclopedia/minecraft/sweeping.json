@@ -1,0 +1,17 @@
+{
+  "name": "横扫之刃",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 134,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "横扫之刃",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

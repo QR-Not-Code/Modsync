@@ -1,0 +1,17 @@
+{
+  "name": "御影",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"consecration:undead_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 147,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "御影",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

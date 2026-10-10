@@ -1,0 +1,24 @@
+{
+  "name": "取消当前追回",
+  "category": "patchouli:trace",
+  "icon": "minecraft:barrier",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:trace/active_death",
+        "patchouli:trace/list"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

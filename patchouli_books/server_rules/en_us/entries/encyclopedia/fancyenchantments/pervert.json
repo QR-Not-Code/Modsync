@@ -1,0 +1,17 @@
+{
+  "name": "变态",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:pervert\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 253,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "变态",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

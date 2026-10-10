@@ -1,0 +1,17 @@
+{
+  "name": "平静",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:calmer\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 209,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "平静",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

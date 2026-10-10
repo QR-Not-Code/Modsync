@@ -1,0 +1,17 @@
+{
+  "name": "空袭",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:air_attack\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 199,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "空袭",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "凋零骷髅: 50%头颅",
+  "category": "patchouli:loot",
+  "icon": "minecraft:wither_skeleton_skull",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/loot_skull_1"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wither_skeleton",
+      "text": "",
+      "scale": 0.85
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

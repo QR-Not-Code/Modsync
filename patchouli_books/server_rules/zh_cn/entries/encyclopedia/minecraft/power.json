@@ -1,0 +1,17 @@
+{
+  "name": "力量",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:power\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 123,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "力量",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "扩容",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"cofh_core:holding\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 146,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "扩容",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

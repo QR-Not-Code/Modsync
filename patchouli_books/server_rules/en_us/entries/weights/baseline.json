@@ -1,0 +1,130 @@
+{
+  "name": "原版附魔",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "原版附魔",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_1"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_2"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_3"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_4"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_5"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_6"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_7"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_8"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_9"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_10"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_11"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_12"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_13"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_14"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_15"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_16"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_17"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_18"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_19"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_20"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_21"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_22"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_23"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_24"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_25"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_26"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_27"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_28"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_29"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_30"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_31"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_32"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_33"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_34"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_35"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_36"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_37"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_38"
+    },
+    {
+      "type": "patchouli:rich/weights_baseline_39"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "击退",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:knockback\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 115,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "击退",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

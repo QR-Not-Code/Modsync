@@ -1,0 +1,17 @@
+{
+  "name": "饥渴",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:hungry\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 239,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "饥渴",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

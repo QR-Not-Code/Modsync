@@ -1,0 +1,17 @@
+{
+  "name": "高级火焰附加",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:advanced_fire_aspect\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 192,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "高级火焰附加",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

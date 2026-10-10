@@ -1,0 +1,36 @@
+{
+  "name": "经验点与经验等级",
+  "category": "patchouli:anvil",
+  "icon": "minecraft:experience_bottle",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "经验与等级",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/anvil_experience_3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:loot/experience"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

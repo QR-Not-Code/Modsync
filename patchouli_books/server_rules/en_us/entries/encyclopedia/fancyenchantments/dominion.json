@@ -1,0 +1,17 @@
+{
+  "name": "统御",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:dominion\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 219,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "统御",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

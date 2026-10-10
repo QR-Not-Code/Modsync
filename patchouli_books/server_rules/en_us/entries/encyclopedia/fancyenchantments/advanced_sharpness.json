@@ -1,0 +1,17 @@
+{
+  "name": "高级锋利",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:advanced_sharpness\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 196,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "高级锋利",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

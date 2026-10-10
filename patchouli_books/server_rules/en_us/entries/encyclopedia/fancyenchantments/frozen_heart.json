@@ -1,0 +1,17 @@
+{
+  "name": "冰封之心",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:frozen_heart\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 233,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "冰封之心",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

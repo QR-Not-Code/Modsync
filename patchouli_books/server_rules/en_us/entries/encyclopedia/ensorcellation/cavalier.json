@@ -1,0 +1,17 @@
+{
+  "name": "骑士",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:cavalier\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 164,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "骑士",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

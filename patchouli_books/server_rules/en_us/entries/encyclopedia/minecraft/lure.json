@@ -1,0 +1,17 @@
+{
+  "name": "饵钓",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:lure\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 119,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "饵钓",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

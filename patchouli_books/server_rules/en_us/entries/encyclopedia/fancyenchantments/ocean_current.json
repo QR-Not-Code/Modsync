@@ -1,0 +1,17 @@
+{
+  "name": "洋流",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:ocean_current\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 249,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "洋流",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

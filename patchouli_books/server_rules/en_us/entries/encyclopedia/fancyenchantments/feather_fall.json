@@ -1,0 +1,17 @@
+{
+  "name": "羽落",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:feather_fall\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 229,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "羽落",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

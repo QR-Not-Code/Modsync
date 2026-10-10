@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(#875b20)$(o)5阶$()可无限执行 $(c:/state class)$(#6b4897)$(o)/state $()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(c:/state class)$(#6b4897)$(o)class$(/c)$() 和 $(c:/state race)$(#6b4897)$(o)/state ra$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(c:/state race)$(#6b4897)$(o)ce$(/c)$(), 分别重选职业与种族$()",
+      "x": 0,
+      "y": 50,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": ", $(c:/state)$(#6b4897)$(o)/state$(/c)$() 面板不显示剩$()",
+      "x": 0,
+      "y": 63,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "余次数. $()",
+      "x": 0,
+      "y": 76,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "活力",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:vitality\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 187,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "活力",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

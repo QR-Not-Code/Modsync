@@ -1,0 +1,6 @@
+{
+  "name": "个人 - 我的状态",
+  "icon": "minecraft:player_head",
+  "description": "查看服务器实时同步的个人阶位, 强度, 权益和受伤规则. ",
+  "sortnum": 1
+}

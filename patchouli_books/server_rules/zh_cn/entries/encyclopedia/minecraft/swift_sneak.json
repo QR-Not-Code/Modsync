@@ -1,0 +1,17 @@
+{
+  "name": "迅捷潜行",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:swift_sneak\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 135,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "迅捷潜行",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

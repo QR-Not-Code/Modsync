@@ -1,0 +1,19 @@
+{
+  "name": "更好的下界 - 2项",
+  "category": "patchouli:weights",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "更好的下界 - 2项",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/weights_betternether_1"
+    },
+    {
+      "type": "patchouli:rich/weights_betternether_2"
+    }
+  ]
+}

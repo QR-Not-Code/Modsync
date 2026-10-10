@@ -1,0 +1,17 @@
+{
+  "name": "噩梦",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:nightmare\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 247,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "噩梦",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

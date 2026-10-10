@@ -1,0 +1,17 @@
+{
+  "name": "纯洁宿命",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:pure_fate\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 254,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "纯洁宿命",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}
