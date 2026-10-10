@@ -1,0 +1,17 @@
+{
+  "name": "Digging",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"create_sa:chunk_eater\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 151,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Digging",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

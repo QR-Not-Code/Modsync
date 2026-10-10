@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "完整图标保留记录时的物品$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "属性. 旧记录和过大物品$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "若只有基础图标, 页面会$()",
+      "x": 0,
+      "y": 50,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "提示属性不完整. 当前匹$()",
+      "x": 0,
+      "y": 63,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "配物品可以补齐旧记录预览$()",
+      "x": 0,
+      "y": 76,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": ", 但不能反推旧时$()",
+      "x": 0,
+      "y": 89,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 102,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/minecraft/unbreaking)$(#6b4897)耐久 1级$(/l)$()",
+      "x": 22,
+      "y": 105,
+      "max_width": 86,
+      "line_height": 9
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "溺亡",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:drowning\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 221,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "溺亡",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

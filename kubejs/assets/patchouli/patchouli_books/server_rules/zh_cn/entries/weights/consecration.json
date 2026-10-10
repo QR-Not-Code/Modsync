@@ -1,20 +1,16 @@
 {
-  "name": "圣化 · 1项",
+  "name": "圣化 - 1项",
   "category": "patchouli:weights",
   "icon": "minecraft:enchanted_book",
   "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "以下为圣化的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+      "title": "圣化 - 1项",
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)御影$()：每级 0.75 分。$(br)注册名：undead_protection。$(br)针对亡灵来源的减伤；与原版专类保护按同档基准。"
+      "type": "patchouli:rich/weights_consecration_1"
     }
   ]
 }

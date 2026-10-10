@@ -1,0 +1,17 @@
+{
+  "name": "灵巧",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:dexterity\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 218,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "灵巧",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "圣餐",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:eucharist\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 226,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "圣餐",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

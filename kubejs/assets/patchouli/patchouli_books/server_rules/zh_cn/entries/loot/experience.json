@@ -1,0 +1,50 @@
+{
+  "name": "阶位击杀经验加成",
+  "category": "patchouli:loot",
+  "icon": "minecraft:experience_bottle",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "击杀经验",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/loot_experience_6"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:personal/live",
+        "patchouli:loot/crystal",
+        "patchouli:anvil/experience"
+      ],
+      "title": "继续阅读"
+    }
+  ]
+}

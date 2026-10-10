@@ -1,0 +1,17 @@
+{
+  "name": "荆棘",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:thorns\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 136,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "荆棘",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

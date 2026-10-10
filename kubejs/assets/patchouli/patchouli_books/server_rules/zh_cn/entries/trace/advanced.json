@@ -1,30 +1,30 @@
 {
-  "name": "5阶：高级直接追回",
+  "name": "5阶: 高级直接追回",
   "category": "patchouli:trace",
   "icon": "minecraft:nether_star",
   "sortnum": 8,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "只有5阶可以用 /advtrace <编号>，不必返回死亡地点或等10秒，直接在当前玩家位置生成该记录的物品掉落。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "费用为300级经验，不足则失败。/advtrace 不带数字默认选第1条。创造模式免经验，但仍须5阶。"
+      "text": ""
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:nether_star",
       "title": "高级追回",
-      "text": "5阶权益：随地追回，成功后删除对应存档。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "正在普通追回另一条记录时，先 /trace cancel 才能高级追回其他记录，已支付的普通追回费用不退款。可以高级领取当前正追回的同一条记录。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "成功生成才删除记录。生成失败会保留存档；若已经扣了高级费用，会尝试退还并显示结果。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",

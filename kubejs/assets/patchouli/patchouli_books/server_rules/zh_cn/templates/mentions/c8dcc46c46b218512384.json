@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "此规则先移除原头颅掉落,$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": " 再进行一次50%判定. $()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:looting\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 50,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/minecraft/looting)$(#6b4897)抢夺 1级$(/l)$()",
+      "x": 22,
+      "y": 53,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": "不会额外提高这项概率. $()",
+      "x": 0,
+      "y": 74,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

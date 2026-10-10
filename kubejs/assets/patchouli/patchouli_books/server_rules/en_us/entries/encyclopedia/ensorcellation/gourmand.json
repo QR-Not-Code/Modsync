@@ -1,0 +1,17 @@
+{
+  "name": "美食家",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:gourmand\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 175,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "美食家",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

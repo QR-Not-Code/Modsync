@@ -1,0 +1,17 @@
+{
+  "name": "钓者之赏",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:angler\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 162,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "钓者之赏",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

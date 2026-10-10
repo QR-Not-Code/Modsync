@@ -1,0 +1,17 @@
+{
+  "name": "百炼锻甲术",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:armor_forging\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 200,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "百炼锻甲术",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,40 +1,31 @@
 {
-  "name": "机械动力：物品附加 · 6项",
+  "name": "机械动力: 物品附加 - 6项",
   "category": "patchouli:weights",
   "icon": "minecraft:enchanted_book",
   "sortnum": 7,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "以下为机械动力：物品附加的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+      "title": "机械动力: 物品附加 - 6项",
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+      "type": "patchouli:rich/weights_create_sa_1"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)踏云$()：每级 0.0 分。$(br)注册名：above_the_clouds。$(br)本机配置关闭此附魔，当前无功能贡献；若服务器启用，建议单级6。"
+      "type": "patchouli:rich/weights_create_sa_2"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)Digging$()：每级 5.0 分。$(br)注册名：chunk_eater。$(br)便携钻连锁采矿；与范围挖掘、效率和时运资源组合很强，内置翻译误显示Digging。"
+      "type": "patchouli:rich/weights_create_sa_3"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)挖掘$()：每级 3.0 分。$(br)注册名：digging。$(br)便携钻范围挖掘；燃料替代耐久，与连锁采矿互补。"
+      "type": "patchouli:rich/weights_create_sa_4"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)重力枪$()：每级 4.0 分。$(br)注册名：gravity_gun。$(br)拾取器可操作实体；控怪与地形利用强，具体Boss免疫需实测。"
+      "type": "patchouli:rich/weights_create_sa_5"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)地狱火$()：每级 2.5 分。$(br)注册名：hellfire。$(br)喷火器改为蓝色火焰并能点燃方块；点火与火系组合上调，不等于对火免疫目标仍增伤。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)冲击$()：每级 3.0 分。$(br)注册名：impact。$(br)脱钩时按玩家速度×3×等级造成周围冲撞伤害；高移速、抓钩与飞行装备放大，实际DPS依赖操作。"
+      "type": "patchouli:rich/weights_create_sa_6"
     }
   ]
 }

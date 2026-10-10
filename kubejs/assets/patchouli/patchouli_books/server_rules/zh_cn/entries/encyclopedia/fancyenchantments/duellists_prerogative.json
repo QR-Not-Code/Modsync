@@ -1,0 +1,17 @@
+{
+  "name": "决斗者的特权",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:duellists_prerogative\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 222,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "决斗者的特权",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

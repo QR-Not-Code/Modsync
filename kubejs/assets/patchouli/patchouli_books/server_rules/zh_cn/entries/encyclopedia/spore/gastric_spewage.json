@@ -1,0 +1,17 @@
+{
+  "name": "胆汁回流",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:gastric_spewage\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 284,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "胆汁回流",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

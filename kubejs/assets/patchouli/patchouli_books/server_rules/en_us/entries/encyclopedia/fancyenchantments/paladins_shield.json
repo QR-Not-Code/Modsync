@@ -1,0 +1,17 @@
+{
+  "name": "帕拉丁之盾",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:paladins_shield\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 252,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "帕拉丁之盾",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

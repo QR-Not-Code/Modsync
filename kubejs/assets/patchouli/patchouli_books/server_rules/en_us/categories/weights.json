@@ -1,6 +1,6 @@
 {
-  "name": "附录 · 附魔单级强度",
-  "icon": "minecraft:enchanting_table",
-  "description": "每一级附魔贡献的分数。单件合计=各项等级×单级强度之和。",
-  "sortnum": 8
+  "name": "全附魔百科",
+  "icon": "minecraft:enchanted_book",
+  "description": "名称、注册名、效果、具体数值、当前最高等级和各等级附魔书. 单级强度仍参与阶位评分. 紫色文字和附魔书框可打开对应介绍. L表示附魔等级, 2点生命值=1颗心.",
+  "sortnum": 9
 }

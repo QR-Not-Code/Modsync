@@ -1,0 +1,17 @@
+{
+  "name": "噬魂者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:eater_of_souls\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 223,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "噬魂者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

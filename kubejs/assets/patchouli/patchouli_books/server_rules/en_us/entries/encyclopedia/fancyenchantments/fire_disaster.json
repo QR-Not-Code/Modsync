@@ -1,0 +1,17 @@
+{
+  "name": "火灾",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:fire_disaster\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 231,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "火灾",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

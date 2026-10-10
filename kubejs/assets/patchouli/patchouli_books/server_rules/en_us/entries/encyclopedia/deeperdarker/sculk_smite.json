@@ -1,0 +1,17 @@
+{
+  "name": "幽匿杀手",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"deeperdarker:sculk_smite\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 160,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "幽匿杀手",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

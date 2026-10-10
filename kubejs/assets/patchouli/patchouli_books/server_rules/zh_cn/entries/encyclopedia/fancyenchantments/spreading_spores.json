@@ -1,0 +1,17 @@
+{
+  "name": "传播孢子",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:spreading_spores\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 268,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "传播孢子",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "净化",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:purifying\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 256,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "净化",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

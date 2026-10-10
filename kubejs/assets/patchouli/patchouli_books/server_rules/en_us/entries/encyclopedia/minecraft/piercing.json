@@ -1,0 +1,17 @@
+{
+  "name": "穿透",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 122,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "穿透",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

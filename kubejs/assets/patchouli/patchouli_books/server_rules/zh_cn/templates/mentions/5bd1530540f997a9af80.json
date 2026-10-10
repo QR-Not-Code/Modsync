@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "死亡时, 把本来会掉落的$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "物品存成死亡记录, 原地$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "不生成这些掉落. $(#347750)$(o)$()",
+      "x": 0,
+      "y": 50,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:soulbound\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 63,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/ensorcellation/soulbound)$(#6b4897)灵魂绑定 1级$(/l)$()",
+      "x": 22,
+      "y": 66,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$()等机制本来就保留的物品不$()",
+      "x": 0,
+      "y": 87,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "重复存入. $()",
+      "x": 0,
+      "y": 100,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

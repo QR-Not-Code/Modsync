@@ -1,0 +1,17 @@
+{
+  "name": "村庄杀手",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:damage_villager\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 169,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "村庄杀手",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "愚忠",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:blind_loyalty\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 203,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "愚忠",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

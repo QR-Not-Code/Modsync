@@ -1,0 +1,17 @@
+{
+  "name": "回击",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:counterattack\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 212,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "回击",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

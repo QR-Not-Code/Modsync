@@ -1,0 +1,17 @@
+{
+  "name": "秋后问斩",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:delayed_execution\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 217,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "秋后问斩",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "壁垒",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:bulwark\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 163,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "壁垒",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

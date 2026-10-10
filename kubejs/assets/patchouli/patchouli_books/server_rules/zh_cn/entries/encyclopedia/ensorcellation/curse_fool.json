@@ -1,0 +1,17 @@
+{
+  "name": "愚钝诅咒",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:curse_fool\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 165,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "愚钝诅咒",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

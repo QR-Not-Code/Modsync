@@ -1,16 +1,16 @@
 {
-  "name": "容量、替换与降阶",
+  "name": "容量, 替换与降阶",
   "category": "patchouli:trace",
   "icon": "minecraft:ender_chest",
   "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "可保存的死亡记录数量等于阶数：1～5阶对应1～5条。满容量时红字提醒。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "普通新死亡超过容量，会先替换最早的未锁定记录。锁定记录不参与正常的新死亡替换。"
+      "text": ""
     },
     {
       "type": "patchouli:image",
@@ -19,19 +19,24 @@
       ],
       "border": false,
       "title": "容量与锁定",
-      "text": "新记录优先保留；正常替换跳过锁定记录。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "如果容量内全部记录都已锁定，新死亡无法建档；该次本该掉落的物品会清除，不能再追回。因此不要在存档已满且全部锁定时携带珍贵物品冒险。"
+      "title": "图示说明",
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "阶位降低时必须按新容量清除最早的超额记录，包括锁定记录。锁定不是永久保管。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "如果被清除的是当前追回目标，追回也会结束，开启费用不返还。正常重启保存的存档仍保留。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
     },
     {
       "type": "patchouli:relations",

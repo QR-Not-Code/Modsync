@@ -1,0 +1,17 @@
+{
+  "name": "忠诚",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 117,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "忠诚",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

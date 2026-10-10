@@ -1,0 +1,17 @@
+{
+  "name": "火焰附加",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 108,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "火焰附加",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

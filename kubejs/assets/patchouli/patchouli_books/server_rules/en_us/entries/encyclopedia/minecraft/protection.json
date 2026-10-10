@@ -1,0 +1,17 @@
+{
+  "name": "保护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 125,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "保护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "水下速掘",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 100,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "水下速掘",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

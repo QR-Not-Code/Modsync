@@ -1,0 +1,17 @@
+{
+  "name": "踏云",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"create_sa:above_the_clouds\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 150,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "踏云",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

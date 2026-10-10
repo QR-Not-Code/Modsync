@@ -1,0 +1,17 @@
+{
+  "name": "自焚",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:self_immolation\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 264,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "自焚",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

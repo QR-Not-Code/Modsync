@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "正在 $(c:/trace)$(#6b4897)$(o)/trace$(/c)$() 状态时死$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "亡, 这次不建立新存档, $()",
+      "x": 0,
+      "y": 37,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "本来会掉落的物品会$(#a04a38)$(o)清除$(),$()",
+      "x": 0,
+      "y": 50,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": " 不能之后追回. $(#347750)$(o)$()",
+      "x": 0,
+      "y": 63,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:soulbound\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 76,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/ensorcellation/soulbound)$(#6b4897)灵魂绑定 1级$(/l)$()",
+      "x": 22,
+      "y": 79,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$()等原本保留的物品仍按原机$()",
+      "x": 0,
+      "y": 100,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "制处理. $()",
+      "x": 0,
+      "y": 113,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

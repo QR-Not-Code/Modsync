@@ -1,0 +1,17 @@
+{
+  "name": "挖掘",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"create_sa:digging\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 152,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "挖掘",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

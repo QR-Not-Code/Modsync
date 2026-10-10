@@ -1,0 +1,17 @@
+{
+  "name": "火箭跳",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:rocket_jump\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 260,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "火箭跳",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "地髓虹吸",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:lithic_siphon\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 243,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "地髓虹吸",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

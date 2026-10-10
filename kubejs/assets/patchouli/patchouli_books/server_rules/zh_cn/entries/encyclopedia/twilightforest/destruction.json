@@ -1,0 +1,17 @@
+{
+  "name": "肆意毁坏",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"twilightforest:destruction\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 291,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "肆意毁坏",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

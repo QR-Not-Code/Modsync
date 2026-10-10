@@ -1,0 +1,17 @@
+{
+  "name": "不屈的精神",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:unyielding_spirit\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 274,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "不屈的精神",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

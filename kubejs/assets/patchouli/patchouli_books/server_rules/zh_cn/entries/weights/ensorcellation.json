@@ -1,136 +1,103 @@
 {
-  "name": "万象 · 30项",
+  "name": "万象 - 30项",
   "category": "patchouli:weights",
   "icon": "minecraft:enchanted_book",
   "sortnum": 10,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "以下为万象的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+      "title": "万象 - 30项",
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+      "type": "patchouli:rich/weights_ensorcellation_1"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)空中速掘$()：每级 0.75 分。$(br)注册名：air_affinity。$(br)与水下速掘类比，消除空中挖掘惩罚；按原版同档便利基准。"
+      "type": "patchouli:rich/weights_ensorcellation_2"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)钓者之赏$()：每级 1.25 分。$(br)注册名：angler。$(br)钓鱼额外掉落判定；自动钓鱼可扩大产能。"
+      "type": "patchouli:rich/weights_ensorcellation_3"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)壁垒$()：每级 2.0 分。$(br)注册名：bulwark。$(br)盾抗击退及反制；帮助持续举盾，配合其他盾附魔。"
+      "type": "patchouli:rich/weights_ensorcellation_4"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)骑士$()：每级 3.0 分。$(br)注册名：cavalier。$(br)骑乘时伤害乘数；坐骑和高伤武器使条件容易满足。"
+      "type": "patchouli:rich/weights_ensorcellation_5"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)愚钝诅咒$()：每级 0.0 分。$(br)注册名：curse_fool。$(br)阻断经验的负面诅咒；自身无正收益，堕落者的组合收益已集中计入堕落者。"
+      "type": "patchouli:rich/weights_ensorcellation_6"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)仁慈诅咒$()：每级 0.0 分。$(br)注册名：curse_mercy。$(br)阻止武器致命一击；不允许负分降低强物品总分。"
+      "type": "patchouli:rich/weights_ensorcellation_7"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)末影杀手$()：每级 1.0 分。$(br)注册名：damage_ender。$(br)每级2.5末影类额外伤害并干扰传送，略高于单纯专杀附魔。"
+      "type": "patchouli:rich/weights_ensorcellation_8"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)灾厄杀手$()：每级 0.75 分。$(br)注册名：damage_illager。$(br)每级2.5灾厄类伤害，与亡灵/节肢专杀同档。"
+      "type": "patchouli:rich/weights_ensorcellation_9"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)村庄杀手$()：每级 1.0 分。$(br)注册名：damage_villager。$(br)村庄生物专杀，配置可能额外掉绿宝石；按资源潜力略上调。"
+      "type": "patchouli:rich/weights_ensorcellation_10"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)移位$()：每级 3.0 分。$(br)注册名：displacement。$(br)受击概率传走攻击者；高近战生物攻击也可能通过机制中断。"
+      "type": "patchouli:rich/weights_ensorcellation_11"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)范围挖掘$()：每级 3.0 分。$(br)注册名：excavating。$(br)范围采矿；效率、时运、地髓虹吸和资源自动化扩大收益。"
+      "type": "patchouli:rich/weights_ensorcellation_12"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)炽焰之斥$()：每级 1.25 分。$(br)注册名：fire_rebuke。$(br)受击点燃并击退；联动火系条件，低于主动免疫机制。"
+      "type": "patchouli:rich/weights_ensorcellation_13"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)冰霜附加$()：每级 1.5 分。$(br)注册名：frost_aspect。$(br)冻伤、减速/削弱，特殊火系目标增伤；帮助冰爆和异况超量。"
+      "type": "patchouli:rich/weights_ensorcellation_14"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)霜冻之斥$()：每级 1.75 分。$(br)注册名：frost_rebuke。$(br)受击控制与冰冻反制；防御和冰系触发兼具。"
+      "type": "patchouli:rich/weights_ensorcellation_15"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)美食家$()：每级 1.0 分。$(br)注册名：gourmand。$(br)提高食物回复；与圣餐、持续治疗配合。"
+      "type": "patchouli:rich/weights_ensorcellation_16"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)狩者之赏$()：每级 1.25 分。$(br)注册名：hunter。$(br)动物额外掉落；自动农场资源收益上调。"
+      "type": "patchouli:rich/weights_ensorcellation_17"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)煽动$()：每级 7.5 分。$(br)注册名：instigating。$(br)对满血目标造成1+等级倍伤害；暴击、统御等组合导致首击爆发。"
+      "type": "patchouli:rich/weights_ensorcellation_18"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)吸血$()：每级 2.0 分。$(br)注册名：leech。$(br)击杀按等级回血；群体清怪、活力和过量治疗提升续航。"
+      "type": "patchouli:rich/weights_ensorcellation_19"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)魔法之刃$()：每级 4.0 分。$(br)注册名：magic_edge。$(br)攻击转换魔法并增加少量伤害；绕过普通护甲，但仍受适用魔法保护和其他机制影响。"
+      "type": "patchouli:rich/weights_ensorcellation_20"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)魔法保护$()：每级 1.5 分。$(br)注册名：magic_protection。$(br)针对魔法伤害的EPF保护；与其他保护组合应计价，仍受类型和保护上限限制。"
+      "type": "patchouli:rich/weights_ensorcellation_21"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)方阵$()：每级 1.5 分。$(br)注册名：phalanx。$(br)盾移动速度；与持续格挡配装配合。"
+      "type": "patchouli:rich/weights_ensorcellation_22"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)窃取$()：每级 3.0 分。$(br)注册名：pilfering。$(br)鱼钩窃取目标护甲；绕开正常击杀掉落获取装备，有资源机制价值。"
+      "type": "patchouli:rich/weights_ensorcellation_23"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)快速拉弓$()：每级 3.0 分。$(br)注册名：quick_draw。$(br)缩短蓄弓时间；力量、齐射、箭速和触发附魔共同扩大DPS。"
+      "type": "patchouli:rich/weights_ensorcellation_24"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)延伸$()：每级 1.5 分。$(br)注册名：reach。$(br)增加方块交互范围；不是所有近战/拔刀剑的攻击范围。"
+      "type": "patchouli:rich/weights_ensorcellation_25"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)灵魂绑定$()：每级 3.0 分。$(br)注册名：soulbound。$(br)死亡保留物品；当前追回体系里省下档位、追回经验和丢档风险，保护高价值模组物品。"
+      "type": "patchouli:rich/weights_ensorcellation_26"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)精准射击$()：每级 3.0 分。$(br)注册名：trueshot。$(br)箭速、精度和穿透；与快速拉弓、力量和齐射提高输出。"
+      "type": "patchouli:rich/weights_ensorcellation_27"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)活力$()：每级 3.0 分。$(br)注册名：vitality。$(br)每级+4生命；与血量/护盾/治疗体系提高有效生存能力。"
+      "type": "patchouli:rich/weights_ensorcellation_28"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)齐射$()：每级 4.0 分。$(br)注册名：volley。$(br)一次消耗一箭发出三箭；按力量、箭速、穿透组合潜力计价，不能假定每箭都命中同目标。"
+      "type": "patchouli:rich/weights_ensorcellation_29"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)斩首$()：每级 5.0 分。$(br)注册名：vorpal。$(br)当前默认(5+5×等级)%概率造成5倍伤害；与煽动、堕落者、风刃等形成高首击爆发，另有头颅掉落收益。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Insight$()：每级 1.5 分。$(br)注册名：xp_boost。$(br)增加拾取经验；线性经验升级、修补、追回费用和附魔循环都获益。"
+      "type": "patchouli:rich/weights_ensorcellation_30"
     }
   ]
 }

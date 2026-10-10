@@ -6,27 +6,30 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "1阶：玩家输出×1；额外魂缚晶概率0%；死亡存档1条；普通追回消耗10级。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "2阶：输出×1/3；魂缚晶1.6%；存档2条；追回9级。首次晋至本阶获得职业重选机会。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "3阶：输出×1/25；魂缚晶10%；存档3条；追回8级。可花50级锁定存档。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "4阶：输出×1/75；魂缚晶20%；存档4条；追回7级。职业机会按首次晋升进度发放。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/rank_effects_4"
     },
     {
       "type": "patchouli:text",
-      "text": "5阶：输出×1/200；魂缚晶50%；存档5条；普通追回6级。职业和种族无限重选；可花300级直接高级追回。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "实体来源受伤最后一个系数依次为1.2、1.4、1.6、1.8、2.0，具体见战斗章节。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",

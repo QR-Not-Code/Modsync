@@ -1,0 +1,17 @@
+{
+  "name": "摔落缓冲",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 107,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "摔落缓冲",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

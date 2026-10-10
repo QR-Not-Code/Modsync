@@ -6,19 +6,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "/trace 或 /trace 1：开启最新存档的追回。$(br)/trace <编号>：开启指定存档。$(br)/trace list：查询列表，免费。$(br)/trace items <编号>：查询物品，免费。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "/claim：已开启追回，同维度5格内连续停留10秒后领取。$(br)/trace cancel：取消追回，不退开启经验。$(br)/trace lock <编号>：至少3阶，消耗50级锁定指定记录。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "开启追回花（11－阶数）级，创造模式免费；取消后再开启需重新付费。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "点击查询：$(c:/trace list)查看我的存档$(/c)。存档编号会变化，收费指令请先看列表后手动输入。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",

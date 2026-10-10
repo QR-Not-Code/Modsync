@@ -1,0 +1,17 @@
+{
+  "name": "无限",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 114,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "无限",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

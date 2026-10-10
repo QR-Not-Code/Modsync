@@ -1,0 +1,17 @@
+{
+  "name": "熔岩防护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"alexsmobs:lavawax\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 140,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "熔岩防护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

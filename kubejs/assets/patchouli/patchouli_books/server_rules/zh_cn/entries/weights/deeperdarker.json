@@ -1,24 +1,19 @@
 {
-  "name": "幽邃黑暗 · 2项",
+  "name": "幽邃黑暗 - 2项",
   "category": "patchouli:weights",
   "icon": "minecraft:enchanted_book",
   "sortnum": 9,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "以下为幽邃黑暗的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+      "title": "幽邃黑暗 - 2项",
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+      "type": "patchouli:rich/weights_deeperdarker_1"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)催发$()：每级 1.0 分。$(br)注册名：catalysis。$(br)击杀用经验扩散幽匿；资源与建造用途，代价是正常经验掉落。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)幽匿杀手$()：每级 0.75 分。$(br)注册名：sculk_smite。$(br)对幽匿类每级+2.5伤害，与原版专杀同档；生物血量翻倍不额外改变附魔分。"
+      "type": "patchouli:rich/weights_deeperdarker_2"
     }
   ]
 }

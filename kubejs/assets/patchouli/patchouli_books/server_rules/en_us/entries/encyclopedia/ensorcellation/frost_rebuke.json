@@ -1,0 +1,17 @@
+{
+  "name": "霜冻之斥",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:frost_rebuke\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 174,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "霜冻之斥",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -6,25 +6,31 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "经验球提供的是经验点，铁砧和追回收取的是经验等级。固定经验模式下，每提升一级需要同样的经验点，不会越高等级越难升级。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "本机已安装配置为固定每级100点。最终每级需要多少点以服务器当前设置为准。"
+      "text": ""
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:experience_bottle",
       "title": "经验与等级",
-      "text": "经验点填充经验条；经验等级是指绿色数字。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/anvil_experience_3"
     },
     {
       "type": "patchouli:text",
-      "text": "经验修补等效果可能先使用经验球的经验点修装备，使实际等级增加减少。支付50级或300级前先检查当前等级，而不是只看拾取的经验球数量。"
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "/state 查询不消耗经验；重评也免费。/trace、锁定和高级追回的收费各不相同，详见死亡章节。"
+      "type": "patchouli:relations",
+      "entries": [
+        "patchouli:loot/experience"
+      ],
+      "title": "继续阅读"
     }
   ]
 }

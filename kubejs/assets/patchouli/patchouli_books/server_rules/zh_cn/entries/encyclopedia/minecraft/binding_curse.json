@@ -1,0 +1,17 @@
+{
+  "name": "绑定诅咒",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 102,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "绑定诅咒",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

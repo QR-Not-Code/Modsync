@@ -1,0 +1,17 @@
+{
+  "name": "颤栗雷霆",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:thrilling_thunder\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 273,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "颤栗雷霆",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

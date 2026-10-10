@@ -1,0 +1,17 @@
+{
+  "name": "Penetration",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"dawnera:penetration\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 158,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Penetration",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

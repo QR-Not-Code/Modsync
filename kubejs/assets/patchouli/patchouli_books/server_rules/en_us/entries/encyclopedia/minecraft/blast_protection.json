@@ -1,0 +1,17 @@
+{
+  "name": "爆炸保护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 103,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "爆炸保护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

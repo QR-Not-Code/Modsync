@@ -1,0 +1,17 @@
+{
+  "name": "土豆回收",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"create:potato_recovery\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 149,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "土豆回收",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

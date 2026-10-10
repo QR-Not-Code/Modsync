@@ -1,0 +1,17 @@
+{
+  "name": "抢夺",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:looting\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 116,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "抢夺",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

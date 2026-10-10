@@ -1,0 +1,17 @@
+{
+  "name": "超越肉体",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:beyond_the_flash\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 201,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "超越肉体",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "风火轮",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:wind_fire_wheels\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 276,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "风火轮",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

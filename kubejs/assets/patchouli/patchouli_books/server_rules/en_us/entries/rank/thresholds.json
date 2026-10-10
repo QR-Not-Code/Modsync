@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "新玩家从1阶开始。达到门槛即可晋阶，等于门槛也有效：$(br)1阶：低于20分。$(br)2阶：至少20分。$(br)3阶：至少80分。$(br)4阶：至少200分。$(br)5阶：至少400分。"
+      "text": ""
     },
     {
       "type": "patchouli:image",
@@ -15,15 +15,20 @@
       ],
       "border": false,
       "title": "晋阶阶梯",
-      "text": "以单件最高强度为准，达到高门槛可直接跨阶。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "晋阶时聊天会提示新阶位、输出倍率、魂缚晶概率与重选权益。阶位越高，特权越多；同时玩家输出降低，实体来源受伤系数提高。"
+      "title": "图示说明",
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "最高阶为5阶。再次拿到更强物品仍会更新最高强度和物品明细，但不会出现第6阶。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
     },
     {
       "type": "patchouli:relations",

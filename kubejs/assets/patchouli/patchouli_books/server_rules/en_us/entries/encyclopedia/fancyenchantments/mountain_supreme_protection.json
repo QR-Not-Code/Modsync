@@ -1,0 +1,17 @@
+{
+  "name": "山之超级级保护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:mountain_supreme_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 245,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "山之超级级保护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

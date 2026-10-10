@@ -1,0 +1,17 @@
+{
+  "name": "余烬之叹息",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:sighs_of_ashes\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 266,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "余烬之叹息",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

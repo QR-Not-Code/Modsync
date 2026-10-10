@@ -1,0 +1,17 @@
+{
+  "name": "消失诅咒",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 138,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "消失诅咒",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

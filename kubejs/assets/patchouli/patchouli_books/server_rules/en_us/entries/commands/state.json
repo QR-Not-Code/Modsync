@@ -1,20 +1,23 @@
 {
-  "name": "状态、明细与重选",
+  "name": "状态, 明细与重选",
   "category": "patchouli:commands",
   "icon": "minecraft:written_book",
   "sortnum": 0,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "/state：自己的状态面板。$(br)/state details：最高强度物品明细。$(br)/state details <册数>：指定明细册。$(br)/state re：按当前背包重评自己，免费，可能降阶。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/commands_state_1"
     },
     {
       "type": "patchouli:text",
-      "text": "/state class：职业重选；2～4阶需余次数，5阶无限。$(br)/state race：5阶无限重选种族。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "点击查询：$(c:/state)查看我的 /state$(/c)。执行会把状态发到聊天。重评和收费功能请手动输入确认。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",

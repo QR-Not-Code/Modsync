@@ -1,0 +1,17 @@
+{
+  "name": "海之眷顾",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 118,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "海之眷顾",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "熔岩爆发",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:lava_burst\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 241,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "熔岩爆发",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

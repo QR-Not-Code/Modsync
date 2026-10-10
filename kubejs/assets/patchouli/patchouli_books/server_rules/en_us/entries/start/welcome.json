@@ -6,25 +6,25 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "欢迎，$(playername)！本手册介绍本服务器已经设置的玩家规则。手持手册右键打开，点击章节和条目阅读。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "在章节列表中寻找相关主题。书中蓝色链接可跳到相关条目；只有明确写成“点击查询”的按钮才会执行查询指令。"
+      "text": ""
     },
     {
       "type": "patchouli:spotlight",
       "item": "patchouli:guide_book{\"patchouli:book\":\"patchouli:server_rules\"}",
       "title": "服务器冒险手册",
-      "text": "右键阅读。每轮手册更新自动发放一次。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "尚未领取手册的玩家会自动获得一本。背包满时先腾出一个背包或快捷栏空格，系统会补发。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "丢弃手册不会立即重复发放；之后有手册更新时会再次发放。已有手册会显示客户端安装的最新正文。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",
@@ -34,6 +34,9 @@
         "patchouli:trace/overview"
       ],
       "title": "继续阅读"
+    },
+    {
+      "type": "patchouli:rich/start_welcome_6"
     }
   ]
 }

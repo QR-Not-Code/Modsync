@@ -1,20 +1,16 @@
 {
-  "name": "更好的末地 · 1项",
+  "name": "更好的末地 - 1项",
   "category": "patchouli:weights",
   "icon": "minecraft:enchanted_book",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "以下为更好的末地的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+      "title": "更好的末地 - 1项",
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)末地面纱$()：每级 0.75 分。$(br)注册名：end_veil。$(br)头盔允许注视末影人而不激怒；免战便利，不会平息已敌对目标。"
+      "type": "patchouli:rich/weights_betterend_1"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "name": "气泡护盾",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:bubble_shield\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 207,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "气泡护盾",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

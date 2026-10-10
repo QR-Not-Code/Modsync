@@ -1,0 +1,17 @@
+{
+  "name": "尖锐硬甲",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:sharp_rock\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 265,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "尖锐硬甲",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

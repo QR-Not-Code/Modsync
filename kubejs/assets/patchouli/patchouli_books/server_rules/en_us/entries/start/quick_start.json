@@ -6,19 +6,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "① 输入 /state：查看阶位、计入的最高强度、输出倍率、在线时间与受伤规则。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "② 单件附魔物品达到20、80、200、400分，分别进入2、3、4、5阶。不是把全套装备相加。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "③ 死亡后本该掉落的物品会进入死亡存档。用 /trace 选择最近存档，回到原维度死亡地点5格内停留10秒，然后 /claim。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "④ /state re 会替换历史最高分并重新定阶，可能降阶和清除超容量存档，执行前请先读说明。"
+      "text": ""
     },
     {
       "type": "patchouli:image",
@@ -27,7 +27,12 @@
       ],
       "border": false,
       "title": "追回流程",
-      "text": "选择存档 → 返回地点 → 停留 → 领取。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "title": "图示说明",
+      "text": ""
     },
     {
       "type": "patchouli:relations",

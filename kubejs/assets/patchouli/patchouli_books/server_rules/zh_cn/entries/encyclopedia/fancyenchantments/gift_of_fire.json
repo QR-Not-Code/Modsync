@@ -1,0 +1,17 @@
+{
+  "name": "火之恩赐",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:gift_of_fire\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 235,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "火之恩赐",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

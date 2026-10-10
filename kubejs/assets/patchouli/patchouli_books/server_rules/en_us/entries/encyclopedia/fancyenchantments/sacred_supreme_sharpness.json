@@ -1,0 +1,17 @@
+{
+  "name": "圣洁超级锋利",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:sacred_supreme_sharpness\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 262,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "圣洁超级锋利",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

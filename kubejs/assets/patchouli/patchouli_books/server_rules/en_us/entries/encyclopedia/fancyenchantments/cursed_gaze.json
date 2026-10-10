@@ -1,0 +1,17 @@
+{
+  "name": "诅咒凝视",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:cursed_gaze\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 215,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "诅咒凝视",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

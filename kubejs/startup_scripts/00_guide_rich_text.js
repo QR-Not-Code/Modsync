@@ -29,8 +29,8 @@ if(Platform.isClientEnvironment()&&Platform.isLoaded('patchouli'))(function(){
   var glyphWidths={};
   function component(body,color,italic){return Text.of({text:body,color:'#'+('000000'+color.toString(16)).slice(-6),font:'minecraft:uniform',bold:false,italic:!!italic,underlined:false});}
   function measure(font,sequence,plain){
-    try{return Number(font['width(net.minecraft.util.FormattedCharSequence)'](sequence));}
-    catch(e){warn('sequence width fallback',e);return Number(font.width(String(plain)));}
+    try{return Number(font.width(sequence));}
+    catch(e){warn('uniform width fallback',e);var widths=global.kjsGuideUniformAdvancesV1||{},total=0;for(var i=0;i<plain.length;i++){var c=plain.charAt(i);total+=widths[c]==null?(c.charCodeAt(0)>127?9:6):Number(widths[c]);}return total;}
   }
   function advance(c){
     if(glyphWidths[c]==null){var mc=Minecraft.getInstance();glyphWidths[c]=measure(mc.font,component(c,0x263945,false).getVisualOrderText(),c);}
@@ -59,7 +59,7 @@ if(Platform.isClientEnvironment()&&Platform.isLoaded('patchouli'))(function(){
         continue;
       }}
       if(text.charAt(i)==='\n'){flush();i++;continue;}
-      var token=/^[A-Za-z0-9_:/.-]+/.exec(text.slice(i));
+      var token=(i===0||!/[A-Za-z0-9_:/.-]/.test(text.charAt(i-1)))?/^[A-Za-z0-9_:/.-]+/.exec(text.slice(i)):false;
       if(token){var wordWidth=0;for(var wi=0;wi<token[0].length;wi++)wordWidth+=advance(token[0].charAt(wi));if(wordWidth<=width&&used&&used+wordWidth>width)flush();}
       var found=style.command?false:match(text,i);
       if(found&&!skip.all&&!skip[found.data.id]){put({item:found.data,text:'',color:style.color,prefix:'',command:'',link:''},10);}
@@ -95,8 +95,8 @@ if(Platform.isClientEnvironment()&&Platform.isLoaded('patchouli'))(function(){
       }offset+=actualWidth;
     }
   }
-  global.kjsGuideLayoutVersion='1.7.7';
-  console.info('[guide layout] 1.7.7 direct text; measured spacing; final-only preview');
+  global.kjsGuideLayoutVersion='1.7.8';
+  console.info('[guide layout] 1.7.8 direct text; measured spacing; final-only preview');
   global.kjsGuideRichRowsV1=layout;
   global.kjsGuideRichPaintV1=paint;
   global.kjsGuideRichBeginV1=begin;

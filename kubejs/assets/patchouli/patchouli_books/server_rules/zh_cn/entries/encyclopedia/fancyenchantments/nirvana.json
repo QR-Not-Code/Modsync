@@ -1,0 +1,17 @@
+{
+  "name": "涅槃",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:nirvana\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 248,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "涅槃",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

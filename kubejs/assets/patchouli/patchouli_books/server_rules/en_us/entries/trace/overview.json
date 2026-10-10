@@ -5,12 +5,11 @@
   "sortnum": 0,
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "死亡时，把本来会掉落的物品存成死亡记录，原地不生成这些掉落。灵魂绑定等机制本来就保留的物品不重复存入。"
+      "type": "patchouli:rich/trace_overview_0"
     },
     {
       "type": "patchouli:text",
-      "text": "存档保留物品数量、附魔和物品数据，包括可正常序列化的模组物品。经验不在这份物品清单内。"
+      "text": ""
     },
     {
       "type": "patchouli:image",
@@ -19,15 +18,20 @@
       ],
       "border": false,
       "title": "死亡追回",
-      "text": "领取成功时物品以掉落实体出现在你的位置。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "每次普通死亡会私聊说明追回规则，5阶还会收到高级追回介绍。没有实际待保存物品时不会凭空生成物品存档。"
+      "title": "图示说明",
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "默认保存最近记录。编号1最新，编号2是上一条，以此类推。领取和清除后其余记录重新编号。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
     },
     {
       "type": "patchouli:relations",

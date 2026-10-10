@@ -1,0 +1,17 @@
+{
+  "name": "防水",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"origins:water_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 281,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "防水",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "灵魂汲取",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"last_smith:spirit_absorption\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 277,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "灵魂汲取",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

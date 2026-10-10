@@ -1,0 +1,17 @@
+{
+  "name": "锋利",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 130,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "锋利",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

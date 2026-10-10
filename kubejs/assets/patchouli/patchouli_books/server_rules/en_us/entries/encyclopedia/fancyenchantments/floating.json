@@ -1,0 +1,17 @@
+{
+  "name": "漂浮不定",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:floating\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 232,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "漂浮不定",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

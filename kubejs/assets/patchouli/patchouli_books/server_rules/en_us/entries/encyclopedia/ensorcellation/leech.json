@@ -1,0 +1,17 @@
+{
+  "name": "吸血",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:leech\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 178,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "吸血",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

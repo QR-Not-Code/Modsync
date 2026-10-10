@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:text",
+      "text": "服务器指南自动附带$(#347750)$(o)$()",
+      "x": 0,
+      "y": 24,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:soulbound\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 37,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/ensorcellation/soulbound)$(#6b4897)灵魂绑定 1级$(/l)$()",
+      "x": 22,
+      "y": 40,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$() (Ensorcellation).$()",
+      "x": 0,
+      "y": 61,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": " 正常死亡时会保留本书. $()",
+      "x": 0,
+      "y": 74,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "已持有的服务器指南也会自$()",
+      "x": 0,
+      "y": 87,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "动补上绑定, 不会改动其$()",
+      "x": 0,
+      "y": 100,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "他模组的手册.$()",
+      "x": 0,
+      "y": 113,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

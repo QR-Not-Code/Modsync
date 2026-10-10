@@ -1,0 +1,17 @@
+{
+  "name": "地狱探索者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"netherdepthsupgrade:hell_strider\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 280,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "地狱探索者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "冰爆",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:icy_burst\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 240,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "冰爆",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

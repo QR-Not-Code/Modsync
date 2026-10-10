@@ -1,0 +1,16 @@
+{
+  "name": "我的实时状态",
+  "category": "patchouli:personal",
+  "icon": "minecraft:clock",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ]
+}

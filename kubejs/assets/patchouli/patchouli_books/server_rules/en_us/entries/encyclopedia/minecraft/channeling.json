@@ -1,0 +1,17 @@
+{
+  "name": "引雷",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:channeling\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 104,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "引雷",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

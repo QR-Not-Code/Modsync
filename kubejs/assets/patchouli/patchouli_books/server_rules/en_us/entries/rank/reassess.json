@@ -1,32 +1,31 @@
 {
-  "name": "/state re：重新评估自己",
+  "name": "/state re: 重新评估自己",
   "category": "patchouli:rank",
   "icon": "minecraft:spyglass",
   "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "/state re 免费重新检测自己的当前物品栏。当前单件最高强度会替换旧历史最高分和物品明细，再按20/80/200/400门槛定阶，可以升阶也可以降阶。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "没有正分附魔物品时回到1阶。之后拿到达标物品仍会自动晋阶。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "降阶会立即缩减死亡存档容量，清除超过新容量的最早记录，包括锁定记录。剩余存档重新编号；被删除的追回目标也会结束。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "聊天会显示阶位、最高强度、输出和晶体概率的前后变化，以及实际删除的记录数。没有超额记录则保留现有存档。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:rich/rank_reassess_4"
     },
     {
       "type": "patchouli:text",
-      "text": "职业重选余次数保留。同一晋升奖励不会靠反复重评、降阶和再晋升重复领取。降到5阶以下会失去无限重选权益。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "物品读取失败时本次重评不会替换旧分数或阶位。执行前请先确认当前物品和死亡存档，删除的存档不能通过重评恢复。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",

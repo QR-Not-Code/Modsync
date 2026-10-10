@@ -1,16 +1,16 @@
 {
-  "name": "在线100小时：时间倍率",
+  "name": "在线100小时: 时间倍率",
   "category": "patchouli:combat",
   "icon": "minecraft:clock",
   "sortnum": 0,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "时间按每名玩家累计在线的现实时间计算，离线不累计。死亡、退出和服务器正常重启不会把已保存的累计时长清零。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "时间倍率从1开始，先稍快后稍慢，在线100小时达到4并封顶。时间倍率影响你受到的伤害。"
+      "text": ""
     },
     {
       "type": "patchouli:image",
@@ -19,15 +19,20 @@
       ],
       "border": false,
       "title": "在线时间曲线",
-      "text": "0小时＝1；50小时＝2.575；100小时及以后＝4。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "精确计算：x=min(在线小时÷100,1)。时间倍率=1＋3×[x＋0.1×x×(1－x)]。"
+      "title": "图示说明",
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "10小时为1.327，24小时为1.77472，75小时为3.30625。用 /state 查看自己当前在线时长和倍率。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
     },
     {
       "type": "patchouli:relations",

@@ -1,0 +1,17 @@
+{
+  "name": "血祭",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:blood_sacrifice\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 205,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "血祭",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

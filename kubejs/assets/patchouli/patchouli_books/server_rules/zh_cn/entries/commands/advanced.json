@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "/advtrace 或 /advtrace 1：高级领取最新存档。$(br)/advtrace <编号>：高级领取指定存档。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "仅5阶可用，消耗300级，创造模式免费。无需回到死亡地点，成功后在当前位置生成物品并删除记录。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",

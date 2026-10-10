@@ -1,0 +1,17 @@
+{
+  "name": "穿刺",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 113,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "穿刺",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

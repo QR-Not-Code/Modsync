@@ -1,24 +1,22 @@
 {
-  "name": "追回中死亡：三次上限",
+  "name": "追回中死亡: 三次上限",
   "category": "patchouli:trace",
   "icon": "minecraft:redstone",
   "sortnum": 7,
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "正在 /trace 状态时死亡，这次不建立新存档，本来会掉落的物品会清除，不能之后追回。灵魂绑定等原本保留的物品仍按原机制处理。"
+      "type": "patchouli:rich/trace_active_death_0"
     },
     {
       "type": "patchouli:text",
-      "text": "同时目标存档的“追回中死亡”次数加1，聊天显示剩余次数与警告。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "第1次和第2次，目标存档仍在。第3次，目标记录彻底销毁，追回结束；即使目标已锁定也一样。"
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "累计次数跟随该条记录保存，取消、重新选择、退出或重启都不会清零。不能靠一直开着追回把记录永久保护起来。"
+      "type": "patchouli:rich/trace_active_death_3"
     },
     {
       "type": "patchouli:relations",

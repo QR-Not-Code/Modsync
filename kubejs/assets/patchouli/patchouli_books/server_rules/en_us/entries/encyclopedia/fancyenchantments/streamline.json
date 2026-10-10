@@ -1,0 +1,17 @@
+{
+  "name": "流线型",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:streamline\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 271,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "流线型",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

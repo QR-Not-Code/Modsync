@@ -6,25 +6,30 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "能够归属到非玩家生物的伤害，每次标准受伤事件独立有25%概率变为2倍。这包括能够追溯发射者的箭矢、火球和模组投射物。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "暴击在新的护甲前受伤公式后乘2，然后交给后续防御处理。"
+      "text": ""
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:skeleton",
-      "text": "能够追溯发射者的远程攻击也会参加暴击判定。",
+      "text": "",
       "scale": 1
     },
     {
       "type": "patchouli:text",
-      "text": "玩家来源的伤害不会获得这项随机双倍暴击；原版玩家暴击和武器模组自己的效果照常由各自机制决定。"
+      "title": "图示说明",
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "无人归属投射物可以采用实体受伤公式，但找不到非玩家生物发射者时不会获得本项暴击。"
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
     }
   ]
 }

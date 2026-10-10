@@ -1,360 +1,271 @@
 {
-  "name": "奇异附魔 · 86项",
+  "name": "奇异附魔 - 86项",
   "category": "patchouli:weights",
   "icon": "minecraft:enchanted_book",
   "sortnum": 11,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "以下为奇异附魔的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+      "title": "奇异附魔 - 86项",
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+      "type": "patchouli:rich/weights_fancyenchantments_1"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)噬渊漩涡$()：每级 4.0 分。$(br)注册名：abyssal_maelstrom。$(br)持续聚怪；群体攻击、冰爆与孢子爆发会扩大收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_2"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)高级火焰附加$()：每级 2.25 分。$(br)注册名：advanced_fire_aspect。$(br)每击累加燃烧时间；按与火之恩赐、余烬之叹息组合上调，免火目标收益下降。"
+      "type": "patchouli:rich/weights_fancyenchantments_3"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)高级火矢$()：每级 2.25 分。$(br)注册名：advanced_flame。$(br)箭矢累加燃烧时间；齐射、万箭提高施加频率，与火系伤害联动。"
+      "type": "patchouli:rich/weights_fancyenchantments_4"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)高级抢夺$()：每级 1.75 分。$(br)注册名：advanced_looting。$(br)默认每级至少提供2级抢夺并有额外概率加成；高于原版抢夺基准。"
+      "type": "patchouli:rich/weights_fancyenchantments_5"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)高级保护$()：每级 2.0 分。$(br)注册名：advanced_protection。$(br)每级2点EPF；本机启用超过20点EPF后的额外减伤，按跨护甲叠加上调。"
+      "type": "patchouli:rich/weights_fancyenchantments_6"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)高级锋利$()：每级 2.25 分。$(br)注册名：advanced_sharpness。$(br)当前源码默认增加1.5+等级点伤害；保留首级固定加成与多段攻击收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_7"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)残影$()：每级 8.0 分。$(br)注册名：afterimage。$(br)速度转闪避；当前默认每级上限30%、总上限80%；速度、风之祝福与起源加成使其接近上限。"
+      "type": "patchouli:rich/weights_fancyenchantments_8"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)噬魔$()：每级 2.0 分。$(br)注册名：ailment_devourer。$(br)负面持续时间缩为1/(等级+1)；防控制、凋零和模组持续伤害，收益有递减。"
+      "type": "patchouli:rich/weights_fancyenchantments_9"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)空袭$()：每级 3.0 分。$(br)注册名：air_attack。$(br)坠落距离转伤害；飞行、火箭跳、羽落使触发条件更容易满足。"
+      "type": "patchouli:rich/weights_fancyenchantments_10"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)百炼锻甲术$()：每级 4.0 分。$(br)注册名：armor_forging。$(br)受击锻造后每级最高+20%护甲、+10%韧性；与坚如磐石和尖锐硬甲构成防御转输出。"
+      "type": "patchouli:rich/weights_fancyenchantments_11"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)超越肉体$()：每级 35.0 分。$(br)注册名：beyond_the_flash。$(br)快捷栏武器额外参与攻击；高伤模组武器、修补和多段攻击显著放大收益，默认仅一个物品生效。"
+      "type": "patchouli:rich/weights_fancyenchantments_12"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)风之祝福$()：每级 3.0 分。$(br)注册名：blessed_wind。$(br)增加跑速并自动上坡；同时提高风刃、残影和滚石收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_13"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)愚忠$()：每级 3.0 分。$(br)注册名：blind_loyalty。$(br)装备过的物品掉落时尝试归还；不保证死亡追回脚本截获掉落后的归还次序。"
+      "type": "patchouli:rich/weights_fancyenchantments_14"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)饮血$()：每级 7.5 分。$(br)注册名：blood_feed。$(br)击杀成长为物品生命属性；每级上限10点生命，与活力、治疗及吸收配合。"
+      "type": "patchouli:rich/weights_fancyenchantments_15"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)血祭$()：每级 7.5 分。$(br)注册名：blood_sacrifice。$(br)扣血换百分比伤害；低血量增伤与治疗、护盾相配可降低代价。"
+      "type": "patchouli:rich/weights_fancyenchantments_16"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)嗜血$()：每级 4.0 分。$(br)注册名：bloodthirsty。$(br)攻击按伤害回复饥饿与饱和；支持圣餐反复触发和持续作战，带饥饿副作用。"
+      "type": "patchouli:rich/weights_fancyenchantments_17"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)气泡护盾$()：每级 8.0 分。$(br)注册名：bubble_shield。$(br)满氧时每级可抵消约21点伤害；与减伤、氧气恢复和过量治疗组合提高容错。"
+      "type": "patchouli:rich/weights_fancyenchantments_18"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)凌弱$()：每级 8.0 分。$(br)注册名：bullying。$(br)对幼年生物的击杀机制极强，但适用目标有限；并非对所有Boss通用秒杀。"
+      "type": "patchouli:rich/weights_fancyenchantments_19"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)平静$()：每级 3.0 分。$(br)注册名：calmer。$(br)受击触发短时吸收，默认5秒冷却；与其他盾和回复组成防御循环。"
+      "type": "patchouli:rich/weights_fancyenchantments_20"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)冲锋$()：每级 6.0 分。$(br)注册名：charge。$(br)命中后冲刺并有5+5×等级tick无敌窗口；高攻速有连续覆盖潜力。"
+      "type": "patchouli:rich/weights_fancyenchantments_21"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)异况超量$()：每级 7.5 分。$(br)注册名：condition_overload。$(br)每种负面效果×每级5%增伤；孢子、冻伤、腐蚀、凝视等组合扩大效果数。"
+      "type": "patchouli:rich/weights_fancyenchantments_22"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)回击$()：每级 2.0 分。$(br)注册名：counterattack。$(br)格挡后获得独立暴击率提升；按与其他伤害乘数组合计价。"
+      "type": "patchouli:rich/weights_fancyenchantments_23"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)破碎皇冠$()：每级 4.0 分。$(br)注册名：cracked_crown。$(br)每级提高输出和承伤30%；护盾和减伤可缓解代价，不按纯负面诅咒处理。"
+      "type": "patchouli:rich/weights_fancyenchantments_24"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)笨重$()：每级 0.75 分。$(br)注册名：cumbersome。$(br)攻速负面；保留诅咒、土元素和堕落者联动分，不用负分抵消强附魔。"
+      "type": "patchouli:rich/weights_fancyenchantments_25"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)诅咒凝视$()：每级 3.0 分。$(br)注册名：cursed_gaze。$(br)凝视削弱并减速敌人；安全控制并给异况超量增加负面种类。"
+      "type": "patchouli:rich/weights_fancyenchantments_26"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)奉献$()：每级 3.0 分。$(br)注册名：dedication。$(br)低概率消耗附魔换永久护甲/韧性；重复附魔可累积，固定评分不能衡量已消耗附魔留下的属性。"
+      "type": "patchouli:rich/weights_fancyenchantments_27"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)秋后问斩$()：每级 10.0 分。$(br)注册名：delayed_execution。$(br)储存大部分伤害后放大结算；多次攻击、暴击与其他增伤组合使延迟爆发很强。"
+      "type": "patchouli:rich/weights_fancyenchantments_28"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)灵巧$()：每级 2.0 分。$(br)注册名：dexterity。$(br)每级约0.5格攻击范围；降低近战风险，拔刀剑是否使用此属性取决于其攻击实现。"
+      "type": "patchouli:rich/weights_fancyenchantments_29"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)统御$()：每级 30.0 分。$(br)注册名：dominion。$(br)武器附魔原始等级总和直接转伤害；多附魔与超限等级是主要放大因素。"
+      "type": "patchouli:rich/weights_fancyenchantments_30"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)顺风球$()：每级 3.0 分。$(br)注册名：downwind。$(br)击飞并对空中目标百分比增伤；自带触发条件，适合多段追击。"
+      "type": "patchouli:rich/weights_fancyenchantments_31"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)溺亡$()：每级 0.75 分。$(br)注册名：drowning。$(br)消耗氧气的诅咒；堕落者可受益，氧气盾存在冲突，不能给负分。"
+      "type": "patchouli:rich/weights_fancyenchantments_32"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)决斗者的特权$()：每级 3.0 分。$(br)注册名：duellists_prerogative。$(br)单挑每级20%增伤；可放大高伤武器，但周围其他生物会限制触发。"
+      "type": "patchouli:rich/weights_fancyenchantments_33"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)噬魂者$()：每级 50.0 分。$(br)注册名：eater_of_souls。$(br)杀敌成长伤害sqrt(击杀数)×等级×0.3，默认附加伤害上限1000；自动刷怪可培养，按长期潜力高计价。"
+      "type": "patchouli:rich/weights_fancyenchantments_34"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)换位思考$()：每级 0.75 分。$(br)注册名：empathy。$(br)弓改为抛射玩家；常规输出负面，保留机动与诅咒联动价值。"
+      "type": "patchouli:rich/weights_fancyenchantments_35"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)磨损$()：每级 0.75 分。$(br)注册名：eroding。$(br)耐久负面；可帮助打磨进入低耐久区并给堕落者增加诅咒数。"
+      "type": "patchouli:rich/weights_fancyenchantments_36"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)圣餐$()：每级 15.0 分。$(br)注册名：eucharist。$(br)高营养食物生成有限次数的圣盾；当前版本默认把伤害乘0.1，食物、嗜血和盾循环使其很强。"
+      "type": "patchouli:rich/weights_fancyenchantments_37"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)落石$()：每级 3.0 分。$(br)注册名：falling_stone。$(br)坠落踩踏并在成功命中时免摔；与飞行装备联动。"
+      "type": "patchouli:rich/weights_fancyenchantments_38"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)无畏的挑战者$()：每级 15.0 分。$(br)注册名：fearless_challenger。$(br)敌我生命比决定乘数，默认增伤有10的上限；非玩家生命×2更容易触发，应高计价。"
+      "type": "patchouli:rich/weights_fancyenchantments_39"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)羽落$()：每级 2.0 分。$(br)注册名：feather_fall。$(br)空中潜行缓降；明显优于单纯摔落减伤的机动控制，但不等于自由飞行。"
+      "type": "patchouli:rich/weights_fancyenchantments_40"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)声东击西$()：每级 3.0 分。$(br)注册名：feint_attack。$(br)牺牲主目标伤害换范围输出；聚怪和群体负面提高收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_41"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)火灾$()：每级 0.75 分。$(br)注册名：fire_disaster。$(br)击杀生成火的诅咒；火系和堕落者组合有利用价值。"
+      "type": "patchouli:rich/weights_fancyenchantments_42"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)漂浮不定$()：每级 0.75 分。$(br)注册名：floating。$(br)静止时降低自身输出的诅咒；不是减免自己受到伤害，保留元素和堕落者价值。"
+      "type": "patchouli:rich/weights_fancyenchantments_43"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)冰封之心$()：每级 2.0 分。$(br)注册名：frozen_heart。$(br)受击给攻击者缓慢；帮助脱战并与冰爆、异况超量配合。"
+      "type": "patchouli:rich/weights_fancyenchantments_44"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)疾风$()：每级 1.5 分。$(br)注册名：gale。$(br)挖掘触发急迫；与效率、范围挖掘和连锁采矿提升产能；维基目录未收录此项，源码确认。"
+      "type": "patchouli:rich/weights_fancyenchantments_45"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)火之恩赐$()：每级 2.5 分。$(br)注册名：gift_of_fire。$(br)当前默认每级对燃烧目标额外2.5伤害，水中有减益；多种点火附魔使条件容易满足。"
+      "type": "patchouli:rich/weights_fancyenchantments_46"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)贪婪超级抢夺$()：每级 2.75 分。$(br)注册名：greed_supreme_looting。$(br)默认每级3级抢夺并概率翻倍；资源产能可与其他掉落增益叠加。"
+      "type": "patchouli:rich/weights_fancyenchantments_47"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)重箭$()：每级 2.25 分。$(br)注册名：heavy_arrow。$(br)每级15%箭矢基础伤害、击退和缓慢；与箭速、多箭和控制联动。"
+      "type": "patchouli:rich/weights_fancyenchantments_48"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)沉重打击$()：每级 3.0 分。$(br)注册名：heavy_blow。$(br)每级增加重击概率与重击乘数；高等级非线性，按与其他暴击叠加的潜力上调。"
+      "type": "patchouli:rich/weights_fancyenchantments_49"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)饥渴$()：每级 1.0 分。$(br)注册名：hungry。$(br)概率复制食物掉落；食物生产和圣餐联动，但不复制所有战利品。"
+      "type": "patchouli:rich/weights_fancyenchantments_50"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)冰爆$()：每级 10.0 分。$(br)注册名：icy_burst。$(br)缓慢目标死亡后按其最大生命15%×等级造成范围伤害；高血量生物与聚怪放大收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_51"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)熔岩爆发$()：每级 4.0 分。$(br)注册名：lava_burst。$(br)攻击概率爆炸；与纵火狂治疗、火系输出和聚怪相配。"
+      "type": "patchouli:rich/weights_fancyenchantments_52"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)轻盈$()：每级 1.5 分。$(br)注册名：lightness。$(br)举盾移动速度提升；便于保持防御和移动。"
+      "type": "patchouli:rich/weights_fancyenchantments_53"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)地髓虹吸$()：每级 3.0 分。$(br)注册名：lithic_siphon。$(br)石头转随机生矿概率；时运、范围挖掘和自动生产扩大资源收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_54"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)熔化$()：每级 2.5 分。$(br)注册名：melter。$(br)牺牲自身基础伤害换敌方护甲降低；多段打击与团队攻击获益，控制效果帮助异况超量。"
+      "type": "patchouli:rich/weights_fancyenchantments_55"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)山之超级级保护$()：每级 4.0 分。$(br)注册名：mountain_supreme_protection。$(br)每级3EPF并有护甲后固定减伤；与高级/魔法保护、额外EPF算法和多件护甲配合。"
+      "type": "patchouli:rich/weights_fancyenchantments_56"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)万箭$()：每级 3.0 分。$(br)注册名：multiple_shot。$(br)每级多一支箭；按力量、箭速、火系和穿透的组合潜力上调，不保证同目标同步全部命中。"
+      "type": "patchouli:rich/weights_fancyenchantments_57"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)噩梦$()：每级 0.75 分。$(br)注册名：nightmare。$(br)睡眠爆炸诅咒；爆炸免疫/治疗可能把代价变资源，保留联动值。"
+      "type": "patchouli:rich/weights_fancyenchantments_58"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)涅槃$()：每级 4.0 分。$(br)注册名：nirvana。$(br)低血量且燃烧时提供回复；免火、纵火狂与过量治疗提高稳定性。"
+      "type": "patchouli:rich/weights_fancyenchantments_59"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)洋流$()：每级 3.0 分。$(br)注册名：ocean_current。$(br)默认每级20%攻速，水中更高；攻速同时提高附魔触发频率。"
+      "type": "patchouli:rich/weights_fancyenchantments_60"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)过量治疗$()：每级 8.0 分。$(br)注册名：over_healing。$(br)每级最多10点过量治疗吸收；再生、涅槃、纵火狂和活力形成持续护盾。"
+      "type": "patchouli:rich/weights_fancyenchantments_61"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)满溢$()：每级 0.75 分。$(br)注册名：overflow。$(br)击杀生成水的诅咒；洋流和水元素体系可利用。"
+      "type": "patchouli:rich/weights_fancyenchantments_62"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)帕拉丁之盾$()：每级 3.0 分。$(br)注册名：paladins_shield。$(br)持盾减伤并代承附近玩家/宠物伤害；多人配合收益高，转伤仍有生命条件。"
+      "type": "patchouli:rich/weights_fancyenchantments_63"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)变态$()：每级 0.75 分。$(br)注册名：pervert。$(br)装备概率脱落诅咒；没有所谓轻甲伤害奖励，保留堕落者与元素利用值。"
+      "type": "patchouli:rich/weights_fancyenchantments_64"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)纯洁宿命$()：每级 1.5 分。$(br)注册名：pure_fate。$(br)繁殖概率消除诅咒；是便利和可控清理工具，不能按直接输出计价。"
+      "type": "patchouli:rich/weights_fancyenchantments_65"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)净化斩$()：每级 1.5 分。$(br)注册名：purification_slash。$(br)清除玩家和宠物负面状态，显著降低对其伤害；团队辅助价值。"
+      "type": "patchouli:rich/weights_fancyenchantments_66"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)净化$()：每级 1.25 分。$(br)注册名：purifying。$(br)当前默认对亡灵增加1+3×等级伤害并可净化僵尸村民，略高于原版亡灵杀手基准。"
+      "type": "patchouli:rich/weights_fancyenchantments_67"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)纵火狂$()：每级 15.0 分。$(br)注册名：pyromaniac。$(br)爆炸免疫并转治疗；对大爆炸也有效，与修补、涅槃和过量治疗形成强循环。"
+      "type": "patchouli:rich/weights_fancyenchantments_68"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)反冲$()：每级 0.75 分。$(br)注册名：recoil。$(br)攻击自弹射诅咒；能辅助空袭/落石，同时提供堕落者联动。"
+      "type": "patchouli:rich/weights_fancyenchantments_69"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)反弹$()：每级 3.0 分。$(br)注册名：reflecting。$(br)盾反弹投射物；按对高伤模组投射物的潜在收益上调，具体实体兼容性不能保证。"
+      "type": "patchouli:rich/weights_fancyenchantments_70"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)火箭跳$()：每级 2.0 分。$(br)注册名：rocket_jump。$(br)攻击向上推进；飞行、空袭和坠落攻击联动。"
+      "type": "patchouli:rich/weights_fancyenchantments_71"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)滚石$()：每级 3.5 分。$(br)注册名：rolling_stone。$(br)疾跑百分比减伤并碰撞伤害；速度提升和风刃/残影配装有双重收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_72"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)圣洁超级锋利$()：每级 6.0 分。$(br)注册名：sacred_supreme_sharpness。$(br)默认增加5+1.5×等级伤害，对亡灵等级项更高；与百分比增伤和多段攻击配合。"
+      "type": "patchouli:rich/weights_fancyenchantments_73"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)打磨$()：每级 1.5 分。$(br)注册名：sander。$(br)低耐久额外伤害；耐久管理/修补能维持窗口，但不是损失耐久直接无限伤害。"
+      "type": "patchouli:rich/weights_fancyenchantments_74"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)自焚$()：每级 0.75 分。$(br)注册名：self_immolation。$(br)自燃诅咒；涅槃和免火可将其转为有利条件，保留联动分。"
+      "type": "patchouli:rich/weights_fancyenchantments_75"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)尖锐硬甲$()：每级 6.0 分。$(br)注册名：sharp_rock。$(br)护甲转伤害，盾牌系数更高；锻甲、坚如磐石、奉献及高护甲模组装备显著扩大收益。"
+      "type": "patchouli:rich/weights_fancyenchantments_76"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)余烬之叹息$()：每级 6.0 分。$(br)注册名：sighs_of_ashes。$(br)剩余燃烧时间转伤害再灭火；高级火附加与高频命中扩大爆发。"
+      "type": "patchouli:rich/weights_fancyenchantments_77"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)坚如磐石$()：每级 3.5 分。$(br)注册名：solid_as_a_rock。$(br)持盾每级+15%护甲、+10%韧性；高基础护甲和尖锐硬甲使其收益更大。"
+      "type": "patchouli:rich/weights_fancyenchantments_78"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)传播孢子$()：每级 5.0 分。$(br)注册名：spreading_spores。$(br)累积孢子后造成3倍伤害并中毒；高攻速、多段攻击和异况超量放大。"
+      "type": "patchouli:rich/weights_fancyenchantments_79"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)叠浪$()：每级 3.0 分。$(br)注册名：stacking_waves。$(br)连续攻击提高攻速但有初始减益；与洋流、触发类附魔组合计价。"
+      "type": "patchouli:rich/weights_fancyenchantments_80"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)屹立之壁$()：每级 15.0 分。$(br)注册名：standing_wall。$(br)正面防御与抗破盾的机制收益远高于一般护甲；方向、举盾和伤害类型仍限制效果。"
+      "type": "patchouli:rich/weights_fancyenchantments_81"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)流线型$()：每级 3.0 分。$(br)注册名：streamline。$(br)箭矢加速并取消重力；原版箭伤与速度相关，和力量、重箭、多箭组合获益。"
+      "type": "patchouli:rich/weights_fancyenchantments_82"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)堕落者$()：每级 15.0 分。$(br)注册名：the_fallen。$(br)每个诅咒×每级30%武器伤害；大量可控诅咒时倍率很高，代价不按抵消收益处理。"
+      "type": "patchouli:rich/weights_fancyenchantments_83"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)颤栗雷霆$()：每级 5.0 分。$(br)注册名：thrilling_thunder。$(br)概率施加减速和持续生命流失；异况超量、聚怪和高攻速提高利用率，不能独立致死。"
+      "type": "patchouli:rich/weights_fancyenchantments_84"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)不屈的精神$()：每级 20.0 分。$(br)注册名：unyielding_spirit。$(br)致命伤给予默认8秒续命，期间击杀可复活；召唤物、低血小怪与群伤使逃死更可靠。"
+      "type": "patchouli:rich/weights_fancyenchantments_85"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)风刃$()：每级 8.0 分。$(br)注册名：wind_blade。$(br)速度属性转百分比伤害；风元素、风之祝福、起源和模组速度属性有强组合潜力。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)风火轮$()：每级 10.0 分。$(br)注册名：wind_fire_wheels。$(br)奔跑跳跃可飞行；大幅改变近战、地形、空袭和逃生能力。"
+      "type": "patchouli:rich/weights_fancyenchantments_86"
     }
   ]
 }

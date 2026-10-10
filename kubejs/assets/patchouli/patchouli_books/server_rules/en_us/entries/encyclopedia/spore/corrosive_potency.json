@@ -1,0 +1,17 @@
+{
+  "name": "腐化效能",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:corrosive_potency\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 282,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "腐化效能",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

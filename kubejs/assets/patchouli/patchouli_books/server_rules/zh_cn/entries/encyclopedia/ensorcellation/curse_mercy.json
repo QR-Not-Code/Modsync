@@ -1,0 +1,17 @@
+{
+  "name": "仁慈诅咒",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:curse_mercy\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 166,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "仁慈诅咒",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

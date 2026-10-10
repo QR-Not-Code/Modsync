@@ -1,0 +1,17 @@
+{
+  "name": "水下呼吸",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:respiration\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 128,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "水下呼吸",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

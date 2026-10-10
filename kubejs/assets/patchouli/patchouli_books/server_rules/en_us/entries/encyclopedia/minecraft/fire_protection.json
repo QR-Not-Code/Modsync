@@ -1,0 +1,17 @@
+{
+  "name": "火焰保护",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 109,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "火焰保护",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

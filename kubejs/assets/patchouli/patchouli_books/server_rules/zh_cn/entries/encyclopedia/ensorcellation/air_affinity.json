@@ -1,0 +1,17 @@
+{
+  "name": "空中速掘",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:air_affinity\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 161,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "空中速掘",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

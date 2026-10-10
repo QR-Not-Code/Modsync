@@ -1,24 +1,19 @@
 {
-  "name": "机械动力 · 2项",
+  "name": "机械动力 - 2项",
   "category": "patchouli:weights",
   "icon": "minecraft:enchanted_book",
   "sortnum": 6,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "以下为机械动力的单级分数。每项实际贡献=等级×分数。注册名用于区分同名附魔。"
+      "title": "机械动力 - 2项",
+      "text": ""
     },
     {
-      "type": "patchouli:text",
-      "text": "评分说明包含部分组合收益；它们是评价理由，不是新增的游戏效果。"
+      "type": "patchouli:rich/weights_create_1"
     },
     {
-      "type": "patchouli:text",
-      "text": "$(l)扩容$()：每级 1.0 分。$(br)注册名：capacity。$(br)增加背罐空气续航；与潜水/工具使用有关，并不自动提高玩家氧气值上限。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)土豆回收$()：每级 0.75 分。$(br)注册名：potato_recovery。$(br)概率回收土豆炮弹药；节约资源，与一般原版便利附魔同档。"
+      "type": "patchouli:rich/weights_create_2"
     }
   ]
 }

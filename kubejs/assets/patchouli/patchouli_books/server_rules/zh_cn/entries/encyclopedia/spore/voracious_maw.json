@@ -1,0 +1,17 @@
+{
+  "name": "暴食巨口",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:voracious_maw\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 289,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "暴食巨口",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

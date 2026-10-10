@@ -1,0 +1,17 @@
+{
+  "name": "声东击西",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:feint_attack\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 230,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "声东击西",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

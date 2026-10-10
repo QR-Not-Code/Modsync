@@ -1,0 +1,17 @@
+{
+  "name": "末地面纱",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"betterend:end_veil\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 143,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "末地面纱",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

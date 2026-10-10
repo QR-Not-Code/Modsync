@@ -1,0 +1,17 @@
+{
+  "name": "噬魔",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:ailment_devourer\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 198,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "噬魔",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

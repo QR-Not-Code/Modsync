@@ -1,0 +1,17 @@
+{
+  "name": "快速装填",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 127,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "快速装填",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

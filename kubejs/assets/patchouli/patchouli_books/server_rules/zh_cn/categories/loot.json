@@ -1,6 +1,6 @@
 {
-  "name": "七 · 击杀与掉落",
+  "name": "七 - 击杀与掉落",
   "icon": "minecraft:wither_skeleton_skull",
-  "description": "魂缚晶额外奖励与凋零骷髅头颅概率。",
-  "sortnum": 6
+  "description": "$(#347750)$(o)魂缚晶$()额外奖励与凋零骷髅头颅概率. ",
+  "sortnum": 7
 }

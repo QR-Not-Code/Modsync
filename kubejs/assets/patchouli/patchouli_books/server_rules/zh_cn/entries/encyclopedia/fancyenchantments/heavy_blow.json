@@ -1,0 +1,17 @@
+{
+  "name": "沉重打击",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:heavy_blow\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 238,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "沉重打击",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

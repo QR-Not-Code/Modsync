@@ -1,0 +1,17 @@
+{
+  "name": "反冲",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:recoil\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 258,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "反冲",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

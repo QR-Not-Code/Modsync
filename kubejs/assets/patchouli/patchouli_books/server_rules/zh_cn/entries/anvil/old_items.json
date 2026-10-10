@@ -6,25 +6,25 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "已有操作计数的装备在重启后继续沿用，不会刷新惩罚。旧装备没有新计数标签时，第一次按新规则操作从1开始，不按原版 RepairCost 反推旧历史。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "费用规则改变不代表任意附魔都能兼容，也不自动突破每种附魔的最高等级。"
+      "text": ""
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:anvil",
       "title": "铁砧使用",
-      "text": "已有计数继续增长；未有新计数的旧装备从首次操作开始。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "同等级附魔合并通常提高一级，不同等级通常取较高等级，并受该附魔上限和兼容规则限制。重复施加较低等级附魔不保证提升现有等级，但形成有效产物时仍会记一次操作。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "已取消“过于昂贵”的限制，但必须有足够经验才能取出生存模式产物。"
+      "text": ""
     }
   ]
 }

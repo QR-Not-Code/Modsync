@@ -1,0 +1,17 @@
+{
+  "name": "舞蛇者",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"alexsmobs:serpentfriend\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 141,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "舞蛇者",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

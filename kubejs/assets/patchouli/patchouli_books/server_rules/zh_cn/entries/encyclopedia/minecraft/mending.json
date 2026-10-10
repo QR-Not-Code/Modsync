@@ -1,0 +1,17 @@
+{
+  "name": "经验修补",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 120,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "经验修补",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "重箭",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:heavy_arrow\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 237,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "重箭",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "恒定自然",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"spore:unwavering_nature\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 288,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "恒定自然",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

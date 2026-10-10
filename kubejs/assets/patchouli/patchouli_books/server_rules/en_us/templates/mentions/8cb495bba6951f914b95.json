@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "附魔与规则",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 12
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}",
+      "framed": true,
+      "x": 0,
+      "y": 24,
+      "link_recipe": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:patchouli:encyclopedia/minecraft/mending)$(#6b4897)经验修补 1级$(/l)$()",
+      "x": 22,
+      "y": 27,
+      "max_width": 86,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:text",
+      "text": "等效果可能先使用经验球的$()",
+      "x": 0,
+      "y": 48,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "经验点修装备, 使实际等$()",
+      "x": 0,
+      "y": 61,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "级增加减少. 支付50级或$()",
+      "x": 0,
+      "y": 74,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "300级前先检查当前等级,$()",
+      "x": 0,
+      "y": 87,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": " 而不是只看拾取的经验球$()",
+      "x": 0,
+      "y": 100,
+      "max_width": 108,
+      "line_height": 11
+    },
+    {
+      "type": "patchouli:text",
+      "text": "数量. $()",
+      "x": 0,
+      "y": 113,
+      "max_width": 108,
+      "line_height": 11
+    }
+  ]
+}

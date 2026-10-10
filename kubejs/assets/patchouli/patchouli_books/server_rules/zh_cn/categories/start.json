@@ -1,6 +1,6 @@
 {
-  "name": "一 · 从这里开始",
+  "name": "一 - 从这里开始",
   "icon": "minecraft:book",
-  "description": "先读规则速览，再用 /state 查看自己的进度。",
+  "description": "先读规则速览, 再用 $(c:/state)$(#6b4897)$(o)/state$(/c)$() 查看自己的进度. ",
   "sortnum": 0
 }

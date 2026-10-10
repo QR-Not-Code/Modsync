@@ -1,0 +1,17 @@
+{
+  "name": "精准射击",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:trueshot\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 186,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "精准射击",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

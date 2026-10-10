@@ -6,19 +6,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "检查整个玩家物品栏：主背包、快捷栏、四件盔甲、副手和鼠标正拿着的物品。不限武器、工具或盔甲；模组物品和附魔书也计分。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "背包物品内部、末影箱、其他容器和独立饰品栏不会递归扫描。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "计入的是曾被检测到的单件最高强度。系统会定期扫描，也会处理物品栏变化。拿到更高门槛的物品可以直接跨阶晋升。"
+      "text": ""
     },
     {
       "type": "patchouli:text",
-      "text": "正常丢弃、交易或丢失物品不会自动降阶。历史分数和对应明细会保存，服务器重启不会清零。"
+      "text": ""
     },
     {
       "type": "patchouli:relations",

@@ -1,0 +1,17 @@
+{
+  "name": "冲锋",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:charge\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 210,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "冲锋",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

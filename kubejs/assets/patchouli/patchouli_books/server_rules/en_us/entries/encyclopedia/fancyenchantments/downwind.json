@@ -1,0 +1,17 @@
+{
+  "name": "顺风球",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"fancyenchantments:downwind\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 220,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "顺风球",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

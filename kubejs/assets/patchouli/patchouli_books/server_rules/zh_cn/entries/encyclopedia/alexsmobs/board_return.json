@@ -1,0 +1,17 @@
+{
+  "name": "返板",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"alexsmobs:board_return\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 139,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "返板",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

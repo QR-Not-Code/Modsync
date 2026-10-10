@@ -1,0 +1,17 @@
+{
+  "name": "狩者之赏",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:hunter\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 176,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "狩者之赏",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

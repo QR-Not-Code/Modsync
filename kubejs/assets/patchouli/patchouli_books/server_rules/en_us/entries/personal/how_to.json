@@ -1,0 +1,20 @@
+{
+  "name": "使用动态状态页",
+  "category": "patchouli:personal",
+  "icon": "minecraft:paper",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "我的物品明细",
+  "category": "patchouli:personal",
+  "icon": "minecraft:enchanted_book",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ]
+}

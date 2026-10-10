@@ -1,0 +1,17 @@
+{
+  "name": "魔法之刃",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:magic_edge\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 179,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "魔法之刃",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

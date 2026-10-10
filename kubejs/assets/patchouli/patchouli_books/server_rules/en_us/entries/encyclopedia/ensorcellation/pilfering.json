@@ -1,0 +1,17 @@
+{
+  "name": "窃取",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:pilfering\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 182,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "窃取",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

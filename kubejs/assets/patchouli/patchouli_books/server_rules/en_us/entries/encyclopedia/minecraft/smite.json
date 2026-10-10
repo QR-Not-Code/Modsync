@@ -1,0 +1,17 @@
+{
+  "name": "亡灵杀手",
+  "icon": "minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:smite\",lvl:1s}]}",
+  "category": "patchouli:weights",
+  "sortnum": 132,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "亡灵杀手",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}
