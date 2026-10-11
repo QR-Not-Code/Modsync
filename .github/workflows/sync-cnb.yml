@@ -4,14 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-
 permissions:
   contents: read
-
 concurrency:
   group: modsync-cnb-main
   cancel-in-progress: false
-
 jobs:
   sync:
     if: github.repository == 'QR-Not-Code/Modsync'
@@ -22,14 +19,14 @@ jobs:
       GIT_LFS_SKIP_SMUDGE: '1'
       CNB_REPOSITORY_URL: https://cnb.cool/QR_Not_Code/Modsync
       CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
+      GITHUB_TOKEN: ${{ github.token }}
     steps:
-      - name: Fetch GitHub main and full Git history
+      - name: Fetch GitHub main snapshot
         uses: actions/checkout@v6
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 2
           lfs: false
-
       - name: Configure CNB HTTPS authentication
         shell: bash
         run: |
@@ -73,46 +70,143 @@ jobs:
           set -euo pipefail
           git ls-remote cnb > /dev/null
 
-      - name: Fetch and verify GitHub LFS objects
+      - name: Compare snapshots and publish only changed content
         shell: bash
         run: |
           set -euo pipefail
-          git lfs version
           git lfs install --local
-          # Include history: the Modsync download manifest can pin an ancestor commit.
-          git lfs fetch --all origin HEAD
-          git lfs fsck --objects HEAD
-
-      - name: Upload actual LFS objects to CNB first
-        shell: bash
-        run: |
-          set -euo pipefail
-          git lfs push --all cnb HEAD
-
-      - name: Publish CNB main after LFS upload succeeds
-        shell: bash
-        run: |
-          set -euo pipefail
-          expected=$(git rev-parse HEAD)
-          latest=$(git ls-remote origin refs/heads/main | cut -f1)
-          [[ "$latest" == "$expected" ]] || {
-            echo "::error::GitHub main changed during synchronization. Let the newer push run complete or run this workflow again."
-            exit 1
-          }
-          # Normal fast-forward push: independent target commits are never silently overwritten.
-          git push --progress cnb HEAD:refs/heads/main
-          actual=$(git ls-remote cnb refs/heads/main | cut -f1)
-          [[ "$actual" == "$expected" ]] || {
-            echo "::error::CNB main commit verification failed."
-            exit 1
-          }
-          {
-            echo '### CNB synchronization succeeded'
-            echo "Repository: $CNB_REPOSITORY_URL"
-            echo "GitHub/CNB main commit: \`$expected\`"
-            echo 'Actual LFS objects were uploaded before publishing main.'
-            echo 'modsync-count.txt and the download manifest were copied without modification.'
-          } >> "$GITHUB_STEP_SUMMARY"
+          python3 - <<'MODSYNC_MIRROR_PY'
+          """Atomic incremental snapshot mirror. Native Git/LFS are supplied by Actions."""
+          import base64, hashlib, json, os, pathlib, re, subprocess, tempfile, urllib.request, urllib.parse
+          
+          def git(*args, data=None, env=None):
+              return subprocess.check_output(['git', *args], input=data, env=env)
+          
+          def tree(ref):
+              result={}
+              for record in git('ls-tree','-r','-l','-z',ref).split(b'\0'):
+                  if not record:continue
+                  info,name=record.split(b'\t',1);mode,kind,oid,size=info.split()
+                  if kind!=b'blob' or mode not in (b'100644',b'100755'):raise RuntimeError('Unsupported non-regular repository entry')
+                  result[name.decode('utf-8')]=(mode.decode(),oid.decode(),int(size))
+              return result
+          
+          def reconcile(source,target):
+              desired=dict(source)
+              # The only exception to exact content/mode equality is same relative mods name.
+              for name in source.keys() & target.keys():
+                  if name.startswith('mods/'):desired[name]=target[name]
+              return desired
+          
+          def pointers(entries):
+              values={}
+              for name,(mode,oid,size) in entries.items():
+                  if size>1024:continue
+                  value=git('cat-file','blob',oid)
+                  if not value.startswith(b'version https://git-lfs.github.com/spec/v1\n'):continue
+                  match=re.fullmatch(rb'version https://git-lfs.github.com/spec/v1\noid sha256:([0-9a-f]{64})\nsize ([0-9]+)\n',value)
+                  if not match:raise RuntimeError('Invalid LFS pointer: '+name)
+                  values[match[1].decode()]=int(match[2])
+              return values
+          
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self,*args):return None
+          
+          def retrieve(url,headers):
+              opener=urllib.request.build_opener(NoRedirect)
+              for _ in range(6):
+                  if urllib.parse.urlsplit(url).scheme!='https':raise RuntimeError('Non-HTTPS LFS URL')
+                  try:return opener.open(urllib.request.Request(url,headers=headers),timeout=90)
+                  except urllib.error.HTTPError as ex:
+                      if ex.code not in (301,302,303,307,308):raise
+                      new=urllib.parse.urljoin(url,ex.headers['Location']);ex.close()
+                      if urllib.parse.urlsplit(new).netloc!=urllib.parse.urlsplit(url).netloc:
+                          headers={k:v for k,v in headers.items() if k.lower() not in ('authorization','cookie')}
+                      url=new
+              raise RuntimeError('Too many LFS redirects')
+          
+          def fetch_lfs(objects):
+              if not objects:return
+              token=os.environ['GITHUB_TOKEN']
+              auth=base64.b64encode(('x-access-token:'+token).encode()).decode()
+              body=json.dumps({'operation':'download','transfers':['basic'],'objects':[{'oid':o,'size':n} for o,n in objects.items()]}).encode()
+              request=urllib.request.Request('https://github.com/QR-Not-Code/Modsync.git/info/lfs/objects/batch',data=body,headers={'Authorization':'Basic '+auth,'Content-Type':'application/vnd.git-lfs+json','Accept':'application/vnd.git-lfs+json'})
+              with urllib.request.urlopen(request,timeout=90) as response:reply=json.load(response)
+              rows=reply.get('objects',[])
+              if len(rows)!=len(objects) or {r.get('oid') for r in rows}!=set(objects):raise RuntimeError('Incomplete LFS batch reply')
+              base=pathlib.Path(git('rev-parse','--git-dir').decode().strip())/'lfs/objects'
+              for i,row in enumerate(rows,1):
+                  oid=row['oid'];size=objects[oid]
+                  if row.get('size')!=size or 'error' in row:raise RuntimeError('Required GitHub LFS payload unavailable')
+                  dest=base/oid[:2]/oid[2:4]/oid;dest.parent.mkdir(parents=True,exist_ok=True)
+                  if dest.is_file() and dest.stat().st_size==size and hashlib.file_digest(dest.open('rb'),'sha256').hexdigest()==oid:continue
+                  action=row['actions']['download'];temp=dest.with_suffix('.download');digest=hashlib.sha256();received=0
+                  print(f'[LFS download {i}/{len(rows)}] {oid}: {size} bytes',flush=True)
+                  try:
+                      with retrieve(action['href'],action.get('header',{})) as response,temp.open('wb') as output:
+                          while chunk:=response.read(1024*1024):
+                              received+=len(chunk)
+                              if received>size:raise RuntimeError('Oversized LFS payload')
+                              digest.update(chunk);output.write(chunk)
+                      if received!=size or digest.hexdigest()!=oid:raise RuntimeError('LFS payload hash mismatch')
+                      temp.replace(dest)
+                  finally:temp.unlink(missing_ok=True)
+          
+          def manifest(commit, source_manifest):
+              entries=[];folders=['mods','kubejs','patchouli_books','Modsync']
+              for name,(mode,oid,size) in tree(commit).items():
+                  folder=name.split('/')[0]
+                  if folder not in folders or '/' not in name:continue
+                  if folder=='mods':
+                      parts=name.split('/')
+                      if not name.lower().endswith('.jar') or parts[1].lower() in ('.connector','_bclib_deactivated'):continue
+                  entries.append({'path':name,'oid':oid,'size':size})
+              return {'schema':1,'repository':'https://github.com/QR-Not-Code/Modsync.git','branch':'main','commit':commit,'syncCount':source_manifest['syncCount'],'folders':folders,'files':entries,'counts':{f:sum(e['path'].startswith(f+'/') for e in entries) for f in folders}}
+          
+          def run():
+              source_head=git('rev-parse','HEAD').decode().strip()
+              source_manifest=json.loads(git('show',source_head+':.modsync-manifest.json'))
+              if 'Modsync' not in source_manifest.get('folders',[]):raise RuntimeError('Publish the new uploader manifest with Modsync first')
+              target_refs=git('ls-remote','cnb','refs/heads/main').decode().split()
+              target_head=target_refs[0] if target_refs else None
+              if target_head:git('fetch','--depth=1','cnb','+refs/heads/main:refs/remotes/cnb/main')
+              source=tree(source_head);target=tree(target_head) if target_head else {}
+              for special in ('.modsync-manifest.json','.modsync-mirror.json'):
+                  source.pop(special,None);target.pop(special,None)
+              desired=reconcile(source,target)
+              changes={p:entry for p,entry in desired.items() if target.get(p)!=entry}
+              removed=sorted(target.keys()-desired.keys())
+              print(f'[compare] {len(desired)-len(changes)} retained, {len(changes)} added/changed, {len(removed)} removed',flush=True)
+              for p in changes:print('[add/replace] '+p,flush=True)
+              for p in removed:print('[delete] '+p,flush=True)
+              # Fetch/push only payloads which are absent from the destination snapshot.
+              present=pointers(target);required={o:n for o,n in pointers(changes).items() if o not in present}
+              fetch_lfs(required)
+              if required:git('lfs','push','--object-id','cnb',*required)
+              git('config','user.name','Modsync CNB mirror');git('config','user.email','modsync-mirror@users.noreply.github.com')
+              index=pathlib.Path(os.environ['RUNNER_TEMP'])/'modsync-mirror-index'
+              index.unlink(missing_ok=True);env=dict(os.environ,GIT_INDEX_FILE=str(index))
+              git('read-tree','--empty',env=env)
+              records=b''.join((mode+' '+oid+'\t'+p).encode()+b'\0' for p,(mode,oid,size) in sorted(desired.items()))
+              git('update-index','-z','--index-info',data=records,env=env)
+              content_tree=git('write-tree',env=env).decode().strip()
+              parents=['-p',target_head] if target_head else []
+              content_commit=git('commit-tree',content_tree,*parents,data=('Modsync snapshot '+source_head+'\n').encode()).decode().strip()
+              mirror={'schema':1,'sourceHead':source_head,'sourceManifestCommit':source_manifest['commit'],'syncCount':source_manifest['syncCount']}
+              for name,data in {'.modsync-manifest.json':manifest(content_commit,source_manifest),'.modsync-mirror.json':mirror}.items():
+                  oid=git('hash-object','-w','--stdin',data=(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n').encode()).decode().strip()
+                  git('update-index','--add','--cacheinfo','100644',oid,name,env=env)
+              published_tree=git('write-tree',env=env).decode().strip()
+              published=git('commit-tree',published_tree,'-p',content_commit,data=b'Publish CNB immutable manifest and source generation\n').decode().strip()
+              latest=git('ls-remote','origin','refs/heads/main').decode().split()[0]
+              if latest!=source_head:raise RuntimeError('GitHub changed during mirror upload; CNB main remains unchanged')
+              git('push','cnb',published+':refs/heads/main')
+              if git('ls-remote','cnb','refs/heads/main').decode().split()[0]!=published:raise RuntimeError('CNB publication verification failed')
+              text=f'### Incremental CNB snapshot published\nRetained: {len(desired)-len(changes)}\nChanged: {len(changes)}\nRemoved: {len(removed)}\nNew LFS payloads: {len(required)}\nSource: `{source_head}`\nCNB snapshot: `{published}`\n'
+              with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as output:output.write(text)
+          
+          if __name__=='__main__':run()
+          MODSYNC_MIRROR_PY
 
       - name: Remove temporary credential helper
         if: always()
