@@ -239,3 +239,4 @@ mods/\[现代化修复\][[:space:]]modernfix-forge-5.27.88+mc1.20.1.jar filter=l
 mods/\[附魔描述\][[:space:]]EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar filter=lfs diff=lfs merge=lfs -text
 /.modsync-manifest.json -filter -diff -merge -text
 /modsync-count.txt -filter -diff -merge -text
+/.modsync-manifest.json -filter -diff -merge -text
