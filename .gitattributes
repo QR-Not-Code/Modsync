@@ -234,3 +234,6 @@ mods/\[机械动力：附魔工业\][[:space:]]create-enchantment-industry-2.5.4
 mods/\[现代化修复\][[:space:]]modernfix-forge-5.27.87+mc1.20.1.jar filter=lfs diff=lfs merge=lfs -text
 mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar filter=lfs diff=lfs merge=lfs -text
 mods/mezz_config-1.20.1-forge-0.6.8.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[多态合成\][[:space:]]polymorph-forge-0.49.11+1.20.1.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[现代化修复\][[:space:]]modernfix-forge-5.27.88+mc1.20.1.jar filter=lfs diff=lfs merge=lfs -text
+mods/\[附魔描述\][[:space:]]EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar filter=lfs diff=lfs merge=lfs -text
