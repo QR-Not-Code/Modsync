@@ -1,0 +1,121 @@
+name: Sync Modsync to CNB
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: modsync-cnb-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'QR-Not-Code/Modsync'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      GIT_TERMINAL_PROMPT: '0'
+      GIT_LFS_SKIP_SMUDGE: '1'
+      CNB_REPOSITORY_URL: https://cnb.cool/QR_Not_Code/Modsync
+      CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
+    steps:
+      - name: Fetch GitHub main and full Git history
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+          lfs: false
+
+      - name: Configure CNB HTTPS authentication
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, sys
+          token = os.environ.get('CNB_TOKEN', '')
+          if not token or token != token.strip() or '\n' in token or '\r' in token:
+              print('::error::CNB_TOKEN secret is missing or contains extra whitespace. Save the newly generated token in GitHub repository Secrets.')
+              sys.exit(1)
+          PY
+          auth_dir="$RUNNER_TEMP/modsync-cnb-auth"
+          umask 077
+          mkdir -p "$auth_dir"
+          # The helper contains no token. Only approved CNB HTTPS hosts receive credentials.
+          cat > "$auth_dir/credential.py" <<'PY'
+          import os, sys
+          if len(sys.argv) < 2 or sys.argv[1] != 'get':
+              sys.exit(0)
+          fields = {}
+          for line in sys.stdin:
+              line = line.rstrip('\r\n')
+              if not line:
+                  break
+              key, separator, value = line.partition('=')
+              if separator:
+                  fields[key] = value
+          if fields.get('protocol') != 'https' or fields.get('host') not in {'cnb.cool', 'api.cnb.cool'}:
+              sys.exit(0)
+          token = os.environ.get('CNB_TOKEN', '')
+          if token:
+              sys.stdout.write('username=cnb\npassword=' + token + '\n\n')
+          PY
+          git config --local credential.helper ''
+          git config --local --add credential.helper "!python3 '$auth_dir/credential.py'"
+          git remote add cnb "$CNB_REPOSITORY_URL"
+
+      - name: Check CNB repository access
+        shell: bash
+        run: |
+          set -euo pipefail
+          git ls-remote cnb > /dev/null
+
+      - name: Fetch and verify GitHub LFS objects
+        shell: bash
+        run: |
+          set -euo pipefail
+          git lfs version
+          git lfs install --local
+          # Include history: the Modsync download manifest can pin an ancestor commit.
+          git lfs fetch --all origin HEAD
+          git lfs fsck --objects HEAD
+
+      - name: Upload actual LFS objects to CNB first
+        shell: bash
+        run: |
+          set -euo pipefail
+          git lfs push --all cnb HEAD
+
+      - name: Publish CNB main after LFS upload succeeds
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected=$(git rev-parse HEAD)
+          latest=$(git ls-remote origin refs/heads/main | cut -f1)
+          [[ "$latest" == "$expected" ]] || {
+            echo "::error::GitHub main changed during synchronization. Let the newer push run complete or run this workflow again."
+            exit 1
+          }
+          # Normal fast-forward push: independent target commits are never silently overwritten.
+          git push --progress cnb HEAD:refs/heads/main
+          actual=$(git ls-remote cnb refs/heads/main | cut -f1)
+          [[ "$actual" == "$expected" ]] || {
+            echo "::error::CNB main commit verification failed."
+            exit 1
+          }
+          {
+            echo '### CNB synchronization succeeded'
+            echo "Repository: $CNB_REPOSITORY_URL"
+            echo "GitHub/CNB main commit: \`$expected\`"
+            echo 'Actual LFS objects were uploaded before publishing main.'
+            echo 'modsync-count.txt and the download manifest were copied without modification.'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Remove temporary credential helper
+        if: always()
+        shell: bash
+        run: |
+          rm -f -- "$RUNNER_TEMP/modsync-cnb-auth/credential.py"
