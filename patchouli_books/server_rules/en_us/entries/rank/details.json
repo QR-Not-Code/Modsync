@@ -1,5 +1,5 @@
 {
-  "name": "查看计入的物品明细",
+  "name": "查看当前最高物品明细",
   "category": "patchouli:rank",
   "icon": "minecraft:written_book",
   "sortnum": 4,
@@ -17,10 +17,8 @@
       "text": ""
     },
     {
-      "type": "patchouli:rich/rank_details_3"
-    },
-    {
-      "type": "patchouli:rich/rank_details_4"
+      "type": "patchouli:text",
+      "text": ""
     }
   ]
 }

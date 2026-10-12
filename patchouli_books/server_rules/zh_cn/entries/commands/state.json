@@ -9,23 +9,8 @@
       "text": ""
     },
     {
-      "type": "patchouli:rich/commands_state_1"
-    },
-    {
       "type": "patchouli:text",
       "text": ""
-    },
-    {
-      "type": "patchouli:text",
-      "text": ""
-    },
-    {
-      "type": "patchouli:relations",
-      "entries": [
-        "patchouli:rank/reassess",
-        "patchouli:origins/choices"
-      ],
-      "title": "继续阅读"
     }
   ]
 }

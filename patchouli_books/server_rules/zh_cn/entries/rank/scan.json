@@ -1,5 +1,5 @@
 {
-  "name": "检测范围与历史记录",
+  "name": "检测范围与实时评阶",
   "category": "patchouli:rank",
   "icon": "minecraft:chest",
   "sortnum": 1,
@@ -19,14 +19,6 @@
     {
       "type": "patchouli:text",
       "text": ""
-    },
-    {
-      "type": "patchouli:relations",
-      "entries": [
-        "patchouli:rank/details",
-        "patchouli:rank/reassess"
-      ],
-      "title": "继续阅读"
     }
   ]
 }

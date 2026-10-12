@@ -282,7 +282,7 @@ if (Platform.isClientEnvironment() && Platform.isLoaded('patchouli')) {
         left=left.concat(fontRows(mc.font,mc.font.plainSubstrByWidth(String(meta.itemId),98),108));
         left=left.concat(fontRows(mc.font,'最高强度: '+number(meta.total),108));
         left=left.concat(fontRows(mc.font,mc.font.plainSubstrByWidth(norm(meta.location||''),98),108));
-        var note=data.previewStatus==='full'?'记录时属性快照.':data.previewStatus==='matched_current'?'当前匹配物品, 非旧属性.':'基础图标, 历史属性不完整.';
+        var note=data.previewStatus==='full'?'当前物品属性快照.':data.previewStatus==='matched_current'?'当前最高强度物品.':'基础图标, 当前属性不完整.';
         left=left.concat(fontRows(mc.font,note,108));
         drawRows(g,mc.font,left,x+15,y+64,7,0x263945);
       }

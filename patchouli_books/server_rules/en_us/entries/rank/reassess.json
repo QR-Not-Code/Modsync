@@ -1,5 +1,5 @@
 {
-  "name": "/state re: 重新评估自己",
+  "name": "实时升降阶",
   "category": "patchouli:rank",
   "icon": "minecraft:spyglass",
   "sortnum": 5,
@@ -21,19 +21,12 @@
       "text": ""
     },
     {
-      "type": "patchouli:rich/rank_reassess_4"
-    },
-    {
       "type": "patchouli:text",
       "text": ""
     },
     {
-      "type": "patchouli:relations",
-      "entries": [
-        "patchouli:trace/capacity",
-        "patchouli:trace/lock"
-      ],
-      "title": "继续阅读"
+      "type": "patchouli:text",
+      "text": ""
     }
   ]
 }
