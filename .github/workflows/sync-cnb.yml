@@ -77,7 +77,25 @@ jobs:
           git lfs install --local
           python3 - <<'MODSYNC_MIRROR_PY'
           """Atomic incremental snapshot mirror. Native Git/LFS are supplied by Actions."""
+          from concurrent.futures import ThreadPoolExecutor
           import base64, hashlib, json, os, pathlib, re, subprocess, tempfile, urllib.request, urllib.parse
+          
+          COMPARE_WORKERS=int(os.environ.get('MODSYNC_COMPARE_THREADS',min(8,os.cpu_count() or 1)))
+          if not 1<=COMPARE_WORKERS<=16:raise ValueError('MODSYNC_COMPARE_THREADS must be 1..16')
+          
+          def compare_snapshots(source,target):
+              # Folder-sized tasks amortize scheduling; mods never compare content identities.
+              folders=sorted({p.split('/')[0] for p in source.keys()|target.keys()})
+              def compare(folder):
+                  left={p:v for p,v in source.items() if p.split('/')[0]==folder}
+                  right={p:v for p,v in target.items() if p.split('/')[0]==folder}
+                  desired=reconcile(left,right)
+                  return desired,{p:v for p,v in desired.items() if right.get(p)!=v},right.keys()-desired.keys()
+              desired={};changes={};removed=set()
+              with ThreadPoolExecutor(max_workers=max(1,min(COMPARE_WORKERS,len(folders)))) as pool:
+                  for keep,changed,deleted in pool.map(compare,folders):
+                      desired.update(keep);changes.update(changed);removed.update(deleted)
+              return desired,changes,sorted(removed)
           
           def git(*args, data=None, env=None):
               return subprocess.check_output(['git', *args], input=data, env=env)
@@ -98,11 +116,29 @@ jobs:
                   if name.startswith('mods/'):desired[name]=target[name]
               return desired
           
-          def pointers(entries):
+          def pointers(entries,workers=None):
               values={}
+              candidates=sorted({oid for mode,oid,size in entries.values() if size<=1024})
+              blobs={}
+              # Bounded batches replace one Git process per small file.
+              def read_batch(requested):
+                  result={}
+                  output=git('cat-file','--batch',data=('\n'.join(requested)+'\n').encode());position=0
+                  for oid in requested:
+                      end=output.index(b'\n',position);header=output[position:end].split()
+                      if len(header)!=3 or header[0].decode()!=oid or header[1]!=b'blob':raise RuntimeError('Invalid batch blob identity')
+                      size=int(header[2]);position=end+1
+                      result[oid]=output[position:position+size];position+=size
+                      if output[position:position+1]!=b'\n':raise RuntimeError('Invalid batch blob delimiter')
+                      position+=1
+                  if position!=len(output):raise RuntimeError('Unexpected batch content')
+                  return result
+              batches=[candidates[i:i+256] for i in range(0,len(candidates),256)]
+              with ThreadPoolExecutor(max_workers=max(1,min(workers or COMPARE_WORKERS,len(batches)))) as pool:
+                  for result in pool.map(read_batch,batches):blobs.update(result)
               for name,(mode,oid,size) in entries.items():
                   if size>1024:continue
-                  value=git('cat-file','blob',oid)
+                  value=blobs[oid]
                   if not value.startswith(b'version https://git-lfs.github.com/spec/v1\n'):continue
                   match=re.fullmatch(rb'version https://git-lfs.github.com/spec/v1\noid sha256:([0-9a-f]{64})\nsize ([0-9]+)\n',value)
                   if not match:raise RuntimeError('Invalid LFS pointer: '+name)
@@ -135,11 +171,14 @@ jobs:
               rows=reply.get('objects',[])
               if len(rows)!=len(objects) or {r.get('oid') for r in rows}!=set(objects):raise RuntimeError('Incomplete LFS batch reply')
               base=pathlib.Path(git('rev-parse','--git-dir').decode().strip())/'lfs/objects'
-              for i,row in enumerate(rows,1):
+              def download(indexed):
+                  i,row=indexed
                   oid=row['oid'];size=objects[oid]
                   if row.get('size')!=size or 'error' in row:raise RuntimeError('Required GitHub LFS payload unavailable')
                   dest=base/oid[:2]/oid[2:4]/oid;dest.parent.mkdir(parents=True,exist_ok=True)
-                  if dest.is_file() and dest.stat().st_size==size and hashlib.file_digest(dest.open('rb'),'sha256').hexdigest()==oid:continue
+                  if dest.is_file() and dest.stat().st_size==size:
+                      with dest.open('rb') as stream:
+                          if hashlib.file_digest(stream,'sha256').hexdigest()==oid:return
                   action=row['actions']['download'];temp=dest.with_suffix('.download');digest=hashlib.sha256();received=0
                   print(f'[LFS download {i}/{len(rows)}] {oid}: {size} bytes',flush=True)
                   try:
@@ -151,16 +190,23 @@ jobs:
                       if received!=size or digest.hexdigest()!=oid:raise RuntimeError('LFS payload hash mismatch')
                       temp.replace(dest)
                   finally:temp.unlink(missing_ok=True)
+              with ThreadPoolExecutor(max_workers=min(4,len(rows))) as workers:
+                  list(workers.map(download,enumerate(rows,1)))
           
           def manifest(commit, source_manifest):
               entries=[];folders=['mods','kubejs','patchouli_books','Modsync']
+              source_entries={e['path']:e for e in source_manifest.get('files',[])}
               for name,(mode,oid,size) in tree(commit).items():
                   folder=name.split('/')[0]
                   if folder not in folders or '/' not in name:continue
                   if folder=='mods':
                       parts=name.split('/')
                       if not name.lower().endswith('.jar') or parts[1].lower() in ('.connector','_bclib_deactivated'):continue
-                  entries.append({'path':name,'oid':oid,'size':size})
+                  entry={'path':name,'oid':oid,'size':size};original=source_entries.get(name,{})
+                  if original.get('oid')==oid and original.get('size')==size:
+                      for field in ('payloadSize','payloadSha256','payloadLfs'):
+                          if field in original:entry[field]=original[field]
+                  entries.append(entry)
               return {'schema':1,'repository':'https://github.com/QR-Not-Code/Modsync.git','branch':'main','commit':commit,'syncCount':source_manifest['syncCount'],'folders':folders,'files':entries,'counts':{f:sum(e['path'].startswith(f+'/') for e in entries) for f in folders}}
           
           def run():
@@ -170,17 +216,24 @@ jobs:
               target_refs=git('ls-remote','cnb','refs/heads/main').decode().split()
               target_head=target_refs[0] if target_refs else None
               if target_head:git('fetch','--depth=1','cnb','+refs/heads/main:refs/remotes/cnb/main')
-              source=tree(source_head);target=tree(target_head) if target_head else {}
+              with ThreadPoolExecutor(max_workers=min(2,COMPARE_WORKERS)) as pool:
+                  a=pool.submit(tree,source_head);b=pool.submit(tree,target_head) if target_head else None
+                  source=a.result();target=b.result() if b else {}
               for special in ('.modsync-manifest.json','.modsync-mirror.json'):
                   source.pop(special,None);target.pop(special,None)
-              desired=reconcile(source,target)
-              changes={p:entry for p,entry in desired.items() if target.get(p)!=entry}
-              removed=sorted(target.keys()-desired.keys())
+              desired,changes,removed=compare_snapshots(source,target)
+              print(f'[compare workers] up to {COMPARE_WORKERS}',flush=True)
               print(f'[compare] {len(desired)-len(changes)} retained, {len(changes)} added/changed, {len(removed)} removed',flush=True)
               for p in changes:print('[add/replace] '+p,flush=True)
               for p in removed:print('[delete] '+p,flush=True)
               # Fetch/push only payloads which are absent from the destination snapshot.
-              present=pointers(target);required={o:n for o,n in pointers(changes).items() if o not in present}
+              if COMPARE_WORKERS==1:
+                  present=pointers(target);wanted=pointers(changes)
+              else:
+                  with ThreadPoolExecutor(max_workers=2) as pool:
+                      a=pool.submit(pointers,target,COMPARE_WORKERS//2);b=pool.submit(pointers,changes,COMPARE_WORKERS-COMPARE_WORKERS//2)
+                      present=a.result();wanted=b.result()
+              required={o:n for o,n in wanted.items() if o not in present}
               fetch_lfs(required)
               if required:git('lfs','push','--object-id','cnb',*required)
               git('config','user.name','Modsync CNB mirror');git('config','user.email','modsync-mirror@users.noreply.github.com')
@@ -213,3 +266,4 @@ jobs:
         shell: bash
         run: |
           rm -f -- "$RUNNER_TEMP/modsync-cnb-auth/credential.py"
+
